@@ -47,8 +47,8 @@
 	  Powering Up the Wandboard for the first time</s:a></li>
 	<li><s:a href="#Ethernet_IP_Address">
 	  Ethernet IP Address</s:a></li>
-	<li><s:a href="Converting_to_Wireless">
-	  Converting to Wireless (Wi-Fi) Operation</s:a>
+	<li><s:a href="#Converting_to_Wireless">
+	  Converting to Wireless (Wi-Fi) Operation</s:a></li>
 </ol>
 <hr />
 
@@ -281,21 +281,21 @@ Connecting the flying lead to the Wandboard can be a bit fiddly but when you get
 they will make connection with just a a little pressure resulting in a slight click.</p>  
 
 <p>
-<img src="html/images/quick_start_guide/aerial_socket.jpg" 
-     alt="CSOS Web-GUI" width="695" height="620" border="0" />
+<img src="html/images/quick_start_guide/quickstart_html_aerial_socket.jpg" 
+     alt="Wandboard aerial socket location" 
+     width="695" height="620" border="0" />
 </p>
-
 
 <p>
 Once the antenna is connected, power up the Wandboard making sure it's still connected to a wired network. 
 This because we need to configure the wireless networking and that has to be done using a wired network.</p>
 
 <p>Point your internet browser at the CSOS configuration page (as shown in the previous section). 
-Near the top you should see a menu “Wireless Interface”, 
-click on it and you will be taken to the wireless configuration page.</p>
+Near the top you should see a menu, &quot;Wireless&nbsp;Interface&quot;. 
+Click on it and you will be taken to the wireless interface configuration page.</p>
 
-<p>On the wireless configuration page look for a drop-down box called “Network Name” 
-(you may need to scroll down to see it depending on the size of your browser window). 
+<p>On the wireless interface configuration page look for a drop-down box, &quot;Network&nbsp;Name&quot;. 
+(You may need to scroll down to see it depending on the size of your browser window). 
 If you click on the drop down you should then see a list of all the wireless networks that the Wandboard can see. 
 Hopefully your wireless network is in the list. 
 If not, it's possible that its been hidden in your routers configuration, 
@@ -303,22 +303,23 @@ if so you'll need to consult your routers documentation as it's beyond the scope
 this document to detail how to make your network visible.</p>
 
 <p>Assuming that you can see your network, select it. If your network is protected by a password, 
-then you will need to enter the password in the text box named “Wireless Password”. 
+then you will need to enter the password in the text box named &quot;Wireless&nbsp;Password&quot;. 
 Currently only WPA security is supported, if your wireless network is using 
 WEP security you might need to change it to WPA to get the Wandboard to work, 
 again consult your routers documentation.</p>
 
 <p>When you've entered your network name and password you can click on the 
-“Save and Reboot” button further down the page. Note that there is further help 
+&quot;Save&nbsp;and&nbsp;Reboot&quot; button further down the page. Note that there is further help 
 and information in the Notes section at the bottom of the wireless configuration page.</p>
 
-<p>When the Wandboard has rebooted, turn the power of,
+<p>When the Wandboard has rebooted, turn the power off,
  disconnect the wired connection to your router and then turn the power back on.</p>
  
 <p>It is quite likely that your router will now allocate the Wandboard a
  different IP address when it's using the wireless network,
- so you might have to go through the instructions in the “Ethernet
- IP Address” again before the CSOS page can be viewed again.</p>
+ so you might have to go through the instructions in the 
+ <s:a href="#Ethernet_IP_Address">Ethernet IP Address</s:a> 
+ again before the CSOS page can be viewed again.</p>
  
 <p>If you are using one of the iOS or Android apps it's quite likely
  that the app will auto discover the Squeezelite running on the
