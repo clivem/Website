@@ -325,6 +325,7 @@ and information in the Notes section at the bottom of the wireless configuration
  that the app will auto discover the Squeezelite running on the
  Wandboard so you might be able to start it playing music without
  knowing the new IP address.</p>
+<hr />
 
 <h3><s:text name="header.author" /></h3>
 
