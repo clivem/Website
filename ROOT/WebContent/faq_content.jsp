@@ -208,7 +208,7 @@ comes with the case or be creative.</li>
 <p>Connections (starting from the right side, working left are):</p>
 <ul> 
 <li>top: barrel power jack, bottom: micro USB as power connector</li> 
-<li>top: RJ‐45 Ethernet jack, no bottom</li> 
+<li>top: RJ-45 Ethernet jack, no bottom</li> 
 <li>top: micro OTG USB jack, bottom: HDMI jack</li> 
 <li>top: stacked USB full size type A jacks (host jacks, type on laptops etc), no bottom</li> 
 <li>top: BNC jack (SPDIF), bottom: TOSLINK</li> 
@@ -218,7 +218,7 @@ comes with the case or be creative.</li>
 <p />
  
 <h5><span id="Can_you_re-order_the_jacks.3F">Can you re-order the jacks?</span></h5> 
-<p>John can't really re‐arrange the order of the jacks; it's determined by the pin order on that 
+<p>John can't really re-arrange the order of the jacks; it's determined by the pin order on that 
 giant connector. If he changed the order he would have high speed differential signals 
 crossing each other, and he doesn't want to do that.</p> 
  
