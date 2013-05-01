@@ -58,7 +58,7 @@
 the initial set up of a new SqueezeBox compatible device, using a Wandboard and
 the Community Squeeze Operating System (CSOS).</p>
 
-<p>After reading this document the new user be able to configure a Wandboard to be a
+<p>After reading this document the new user should be able to configure a Wandboard to be a
 working SqueezeBox.</p>
 
 <p>This guide is aimed at Windows PC users, and all
@@ -88,7 +88,7 @@ convenient on your hard drive.</p>
 <p>The CSOS image file is in a compressed format called
 7-Zip. The CSOS image file will need to be de-compressed, to do this you
 will need to use the 7-Zip program which can be downloaded from the 
-<s:a href="http://www.7-zip.org/" target="blank_">7-Zip</s:a> website. 
+<s:a href="http://www.7-zip.org/" target="blank_">7-Zip</s:a> website.  
 </p>
 
 <p>Once 7-Zip is installed run the 7-Zip file manager
@@ -98,6 +98,10 @@ from the pop up context menu. The decompression may take some time to finish but
 when it has finished you should see a file called
 CSOS-Wandboard-Dual-R3-20130412-1.img in the same directory as your
 downloaded file.</p>
+
+<p>It's been reported that both <s:a href="http://www.winrar.com/" target="blank_">WinRAR</s:a> and 
+<s:a href="http://www.winzip.com/" target="blank_">WinZip</s:a> will also happily decompress the file.</p>
+
 <hr />
 
 <h3><span id="Writing_the_CSOS_image_file_to_a_MicroSD_card">Writing the CSOS image file to a 
@@ -114,7 +118,7 @@ your PC doesn't currently have a MicroSD socket available.</p>
 socket built in and adapters are available to allow MicroSD cards to
 be used in standard SD sockets.</p>
 
-<p>The image can be written to the MicroSD card from a Windows OS 
+<p>The image can be written to the MicroSD card from a Windows PC 
 using a program called, 
 <s:a href="http://sourceforge.net/projects/win32diskimager/"
      target="blank_">Win32DiskImager</s:a>. (Download either the 32 bit 
@@ -136,7 +140,8 @@ example &quot;E:\&quot;) is actually the MicroSD card). Then click
 <p>You will get a message saying that writing could
 corrupt your card, but so long as you are sure the device is your
 MicroSD card and there is nothing else important stored on the
-MicroSD card then its safe to proceed. It will take several minuted
+MicroSD card then its safe to proceed. It will take several minutes 
+(possibly up to 15 minutes)
 to complete the write, it's a large file!</p>
 
 <p>When the image has been written to the MicroSD
@@ -171,8 +176,9 @@ the first time</span></h3>
 <p>The first time you power up the Wandboard you need
 to have it connected to your network using a wired (Ethernet) cable.
 This is because the wireless network connection needs to be
-configured, before it can be used. This will be covered later in this
-document.</p>
+configured, before it can be used. 
+<s:a href="#Converting_to_Wireless">Converting to Wireless (Wi-Fi) Operation</s:a> is covered later
+ in this document.</p>
 
 <p>The following picture shows the Wandboard
 connected up with a wired ethernet cable, power cable and 3.5mm
@@ -252,7 +258,7 @@ to the one shown.</p>
 then your Wandboard should now be working as a wired SqueezeBox. 
 </p>
 
-<p>To access your new SqueezeBox device you can use either a
+<p>To access your new SqueezeBox device you can use either use a
 smartphone or tablet and one of the various applications that are
 available from the app stores, (eg.
 <s:a href="https://play.google.com/store/apps/details?id=com.logitech.squeezeboxremote" 
@@ -266,7 +272,7 @@ can use the LMS web interface on your SqueezeBox server. You cannot use
 (at the moment) your infra-red remote.</p>
 
 <p>By default the Wandboard SqueezeBox will be called
-SqeezeliteWAND, you should now be able to select this player and play
+SqueezeliteWAND, you should now be able to select this player and play
 some tunes!</p>
 <hr />
 
@@ -274,11 +280,13 @@ some tunes!</p>
 
 <p>The Wandboard comes with wireless (Wi-Fi) already on the circuit board, 
 however to make it work reliably you will need to add a Wi-Fi antenna such 
-as the one available from all of the Wandboard suppliers. 
+as the one available from all of the 
+<s:a href="http://www.wandboard.org/index.php/buy" 
+     target="blank_">Wandboard suppliers</s:a>. 
 The antenna connects to the Wandboard using a short flying lead. 
 The flying lead connects to the antenna at one end and to a tiny socket on the Wandboard at the other. 
 Connecting the flying lead to the Wandboard can be a bit fiddly but when you get them lined up correctly 
-they will make connection with just a a little pressure resulting in a slight click.</p>  
+they will make connection with just a little pressure resulting in a slight click.</p>  
 
 <p>
 <img src="html/images/quick_start_guide/quickstart_html_aerial_socket.jpg" 
@@ -288,13 +296,13 @@ they will make connection with just a a little pressure resulting in a slight cl
 
 <p>
 Once the antenna is connected, power up the Wandboard making sure it's still connected to a wired network. 
-This because we need to configure the wireless networking and that has to be done using a wired network.</p>
+This is because we need to configure the wireless networking and that has to be done using a wired network.</p>
 
 <p>Point your internet browser at the CSOS configuration page (as shown in the previous section). 
 Near the top you should see a menu, &quot;Wireless&nbsp;Interface&quot;. 
 Click on it and you will be taken to the wireless interface configuration page.</p>
 
-<p>On the wireless interface configuration page look for a drop-down box, &quot;Network&nbsp;Name&quot;. 
+<p>On the wireless interface configuration page look for a drop-down box called &quot;Network&nbsp;Name&quot;. 
 (You may need to scroll down to see it depending on the size of your browser window). 
 If you click on the drop down you should then see a list of all the wireless networks that the Wandboard can see. 
 Hopefully your wireless network is in the list. 
