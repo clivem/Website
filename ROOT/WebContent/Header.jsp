@@ -50,6 +50,12 @@
 		</s:a>
 	</span> 
 
+	<span id="nav-repo">
+		<s:a href="repo.jsp">
+			<s:text name="nav.repo" />
+		</s:a>
+	</span> 
+
 	<span id="nav-help">
 		<s:a href="help.jsp">
 			<s:text name="nav.help" />
