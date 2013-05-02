@@ -50,7 +50,7 @@
 
 <h3><span id="Introduction"><s:text name="header.introduction" /></span></h3>
 
-<p>The Community Squeeze Web Configuration Interface is used to configure and control services.</p>
+<h5>The Community Squeeze Web Configuration Interface is used to configure and control services.</h5>
 
 <p>
 <img src="html/images/web_gui/csos-web-gui_640x522.png" 
@@ -62,8 +62,7 @@
 
 <h3><span id="System"><s:text name="header.system" /></span></h3>
 
-<p>System Configuration
-</p>
+<h5>System Configuration</h5>
 
 <p>
 <img src="html/images/web_gui/csos-web-gui-system_640x448.png" 
@@ -75,8 +74,7 @@
 
 <h3><span id="Ethernet"><s:text name="header.wired" /></span></h3>
 
-<p>Ethernet Interface Configuration
-</p>
+<h5>Ethernet Interface Configuration</h5>
 
 <p>
 <img src="html/images/web_gui/csos-web-gui-ethernet_640x693.png" 
@@ -88,8 +86,7 @@
 
 <h3><span id="Wireless"><s:text name="header.wireless" /></span></h3>
 
-<p>Wireless Interface Configuration
-</p>
+<h5>Wireless Interface Configuration</h5>
 
 <p>
 <img src="html/images/web_gui/csos-web-gui-wireless_640x693.png" 
@@ -101,8 +98,7 @@
 
 <h3><span id="Squeezelite"><s:text name="header.squeezelite" /></span></h3>
 
-<p>Squeezelite Player Configuration and Control
-</p>
+<h5>Squeezelite Player Configuration and Control</h5>
 
 <p>
 <img src="html/images/web_gui/csos-web-gui-squeezelite_640x695.png" 
@@ -114,8 +110,7 @@
 
 <h3><span id="SqueezeServer"><s:text name="header.squeezeserver" /></span></h3>
 
-<p>Squeeze Server Control
-</p>
+<h5>Squeeze Server Control</h5>
 
 <p>
 <img src="html/images/web_gui/csos-web-gui-squeeze-server_640x566.png" 
@@ -127,9 +122,6 @@
 
 <h3><span id="FileSystems"><s:text name="header.fstab" /></span></h3>
 
-<p>File Systems
-</p>
-
 <p>
 <img src="html/images/web_gui/csos-web-gui-file-systems_640x633.png" 
      alt="CSOS Web Configuration Inderface: File Systems" 
@@ -140,8 +132,7 @@
 
 <h3><span id="Shutdown"><s:text name="header.shutdown" /></span></h3>
 
-<p>Shutdown: Reboot or Halt the device
-</p>
+<h5>Shutdown: Reboot or Halt the device</h5>
 
 <p>
 <img src="html/images/web_gui/csos-web-gui-shutdown_640x491.png" 
