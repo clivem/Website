@@ -109,7 +109,7 @@ sudo yum -y install http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonf
 The LMS server is actually comprised of 3 packages: base (noarch), vendor (arch specific) and CPAN (arch specific). 
 Several perl packages are dependencies. Plus codec packages for transcoding.)
 </p>
-<pre class="terminal">sudo yum -y install http://www.communitysqueeze.org/repo/community-squeeze-repo-1-3.noarch.rpm
+<pre class="terminal">sudo yum -y install http://www.communitysqueeze.org/repo/community-squeeze-repo.noarch.rpm
 sudo yum -y install logitechmediaserver
 </pre>
 
