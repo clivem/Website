@@ -52,6 +52,9 @@ Vortexbox 2.2 (Fedora 16), and the Fedora 18 ARM CSOS for Wandboard release.</p>
 in the case of the Fedora 16 packages for Vortexbox 2.2, they depend on the VortexBox repository, which in turn depends on 
 the ATRpms repository.</p>
 
+<p>When running any of the commands below, you should do so as root or using sudo.
+</p>
+
 <h5>Fedora 18 Firewall Daemon</h5>
 
 <p>Fedora 18 installs firewalld, (a firewall daemon), and the default zone is set to &quot;public&quot; which is quite 
