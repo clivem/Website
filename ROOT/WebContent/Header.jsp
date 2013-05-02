@@ -56,6 +56,12 @@
 		</s:a>
 	</span> 
 
+	<span id="nav-webGui">
+		<s:a href="web_gui.jsp">
+			<s:text name="nav.webGui" />
+		</s:a>
+	</span> 
+
 	<span id="nav-help">
 		<s:a href="help.jsp">
 			<s:text name="nav.help" />
