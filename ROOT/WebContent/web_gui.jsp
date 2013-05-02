@@ -140,7 +140,7 @@
 
 <h3><span id="Shutdown"><s:text name="header.shutdown" /></span></h3>
 
-<p>
+<p>Shutdown: Reboot or Halt the device
 </p>
 
 <p>
@@ -154,9 +154,6 @@
 <h3><span id="FAQ"><s:text name="header.faq" /></span></h3>
 
 <p>
-</p>
-
-<p>
 <img src="html/images/web_gui/csos-web-gui-faq_640x617.png" 
      alt="CSOS Web Configuration Inderface: FAQ" 
      width="640" height="617" border="1" />
@@ -165,9 +162,6 @@
 <hr />
 
 <h3><span id="Help"><s:text name="header.help" /></span></h3>
-
-<p>
-</p>
 
 <p>
 <img src="html/images/web_gui/csos-web-gui-help_640x376.png" 
