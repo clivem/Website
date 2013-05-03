@@ -166,9 +166,7 @@ illustrated below.</p>
 <p>If you are controlling Jivelite with a QUERTY keyboard, you may find it useful to know some of 
 the keystrokes shown below.</p>
 
-<pre>
-
-Go                  RIGHT, RETURN
+<pre>Go                  RIGHT, RETURN
 Back                LEFT, ESC, BACKSPACE
 Scroll up           UP
 Scroll down         DOWN
