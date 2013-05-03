@@ -62,6 +62,12 @@
 		</s:a>
 	</span> 
 
+	<span id="nav-gallery">
+		<s:a href="image_gallery.jsp">
+			<s:text name="nav.gallery" />
+		</s:a>
+	</span> 
+
 	<span id="nav-help">
 		<s:a href="help.jsp">
 			<s:text name="nav.help" />
