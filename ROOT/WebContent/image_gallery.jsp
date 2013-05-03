@@ -34,7 +34,7 @@
 
 <h5>Wandboard and DacMagic Plus</h5>
 <p>
-<img src="html/images/photos/wb_dacmagicplus_lintweaker_640_427.png" 
+<img src="html/images/photos/wb_dacmagicplus_lintweaker_640_427.jpg" 
      alt="Wandboard and DACMagic Plus contributed by lintweaker" width="640" height="427" />
 <br class="separator" />
 Contributed by
@@ -45,7 +45,7 @@ Contributed by
 
 <h5>Wandboard and REGA DAC</h5>
 <p>
-<img src="html/images/photos/wb_rega_dac_dsdreamer_640x427.png" 
+<img src="html/images/photos/wb_rega_dac_dsdreamer_640x427.jpg" 
      alt="Wandboard and REGA DAC contributed by dsdreamer" width="640" height="427" />
 <br class="separator" />
 Contributed by
@@ -56,7 +56,7 @@ Contributed by
 
 <h5>Wandboard and Unknown DAC</h5>
 <p>
-<img src="html/images/photos/wb_unknown_dac_dsdreamer_640x427.png" 
+<img src="html/images/photos/wb_unknown_dac_dsdreamer_640x427.jpg" 
      alt="Wandboard and UNKNOWN DAC contributed by dsdreamer" width="640" height="427" />
 <br class="separator" />
 Contributed by
@@ -69,7 +69,7 @@ Contributed by
 <p>&quot;I finished the prototype of the small IO board. That board contains a COAX and TOSLINK SPDIF output.&quot;
 </p>
 <p>
-<img src="html/images/photos/wb_coax_pascal_hibon_432x282.png" 
+<img src="html/images/photos/wb_coax_pascal_hibon_432x282.jpg" 
      alt="Wandboard and DIY COAX SPDIF Output contributed by Pascal Hibon" width="432" height="282" />
 <br class="separator" />
 Contributed by
@@ -80,7 +80,7 @@ Contributed by
 
 <h5>Wandboard and Audio-GD DAC</h5>
 <p>
-<img src="html/images/photos/wb_audio-gd_dac_michaelvv_640x426.png" 
+<img src="html/images/photos/wb_audio-gd_dac_michaelvv_640x426.jpg" 
      alt="Wandboard and Audio-GD DAC contributed by michaelvv" width="640" height="426" />
 <br class="separator" />
 Contributed by
