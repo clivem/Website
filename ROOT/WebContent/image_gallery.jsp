@@ -89,6 +89,28 @@ Contributed by
 </p>
 <hr />
 
+<h5>Wandboard Audio/Visual Setup</h5>
+<p>
+<img src="html/images/photos/wb_audio_visual_albertone_640x478.jpg" 
+     alt="Wandboard Audio/Visual Setup contributed by albertone74" width="640" height="478" />
+<br class="separator" />
+Contributed by
+<s:a href="http://forums.slimdevices.com/member.php?23863-albertone74" 
+     target="blank_">albertone74</s:a>.
+</p>
+<hr />
+
+<h5>Wandboard Audio/Visual Setup</h5>
+<p>
+<img src="html/images/photos/wb_albertone_640x478.jpg" 
+     alt="Wandboard Audio/Visual Setup contributed by albertone74" width="640" height="478" />
+<br class="separator" />
+Contributed by
+<s:a href="http://forums.slimdevices.com/member.php?23863-albertone74" 
+     target="blank_">albertone74</s:a>.
+</p>
+<hr />
+
 <jsp:include page="Footer.jsp"/>
 
 </body>
