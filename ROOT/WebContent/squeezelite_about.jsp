@@ -32,7 +32,31 @@
 
 <hr />
 
-<h3><s:text name="header.introduction" /></h3>
+<h3><s:text name="header.contents" /></h3>
+<ul>
+  <li><s:a href="#Introduction"><s:text name="header.introduction" /></s:a></li>
+  <li><s:a href="#Specifications">Specifications</s:a></li>
+  <li><s:a href="#Output_Selection">Output Selection</s:a>
+    <p />
+    <ul>
+      <li><s:a href="#Via_the_Jivelite_HDMI_User_Interface">Via the Jivelite HDMI User Interface</s:a></li>
+      <li><s:a href="#Via_the_CSOS_Web_Configuration_Interface">Via the CSOS Web Configuration Interface</s:a></li>
+    </ul>
+  </li>
+  <li><s:a href="#Advanced_Configuration">Advanced Configuration</s:a>
+    <p />
+    <ul>
+      <li><s:a href="#Alsa_Parameters">Alsa Parameters</s:a></li>
+      <li><s:a href="#Max_Sample_Rate">Max Sample Rate</s:a></li>
+    </ul>
+  </li>
+  <li><s:a href="#Command_Line_Options">Command Line Options</s:a></li>
+  <li><s:a href="#Source_Code">Source Code</s:a></li>
+  <li><s:a href="#Author"><s:text name="header.author" /></s:a></li>
+</ul>
+<hr />
+
+<h3><span id="Introduction"><s:text name="header.introduction" /></span></h3>
 
 <p>Community Squeeze OS provides a Squeezebox compatible audio player on the Wandboard hardware. 
 The player uses a software application known as Squeezelite which provides the audio output and connects 
@@ -49,8 +73,9 @@ or
 <s:a href="http://orangebikelabs.com/products/orangesqueeze/" 
      target="blank_">Orange Squeeze</s:a>.
 </p>
+<hr />
 
-<h4>Specifications</h4>
+<h3><span id="Specifications">Specifications</span></h3>
 <ol>
 <li>Analog playback using the Wandboard sgtl5000 analogue line output</li>
 <li>Digital (SPDIF) playback using the Wandboad optical TOSLINK output [Note: 1]</li>
@@ -67,16 +92,14 @@ via an external high speed hub for USB class 1 external DAC's</li>
 <li>Cross fade</li>
 <li>Synchronisation with Squeezebox hardware players and other Squeezelite based players</li>
 </ol>
-<p>
-[1] Note that current versions of the Wandboard hardware have a wiring error for the optical SPDIF 
-  port and may not work with all DACs without this being rewired.
+<p>[1] Note that current versions of the Wandboard hardware have a wiring error for the optical SPDIF 
+port and may not work with all DACs without this being rewired.
 </p>
-<p>
-[2] Up to 48k using the TOSLINK output or 96k using the sgtl5000 analogue line out.
+<p>[2] Up to 48k using the TOSLINK output or 96k using the sgtl5000 analogue line out.
 </p>
 <hr />
 
-<h3>Output Selection</h3>
+<h3><span id="Output_Selection">Output Selection</span></h3>
 
 <p>You will normally only need to configure Squeezelite to select which audio device to use as output. 
 Squeezelite is started by default whenever CSOS is started and is normally controlled via the LMS server 
@@ -85,7 +108,7 @@ analogue line output for the output of Squeezelite. To change this you should us
 configuration interfaces to select alternative output devices:
 </p>
 
-<h4>Via the Jivelite HDMI User Interface</h4>
+<h4><span id="Via_the_Jivelite_HDMI_User_Interface">Via the Jivelite HDMI User Interface</span></h4>
 
 <p>Using the Jivelite HDMI User Interface navigate to: 
 Settings&nbsp;&gt;&nbsp;Audio&nbsp;Settings&nbsp;&gt;&nbsp;Audio&nbsp;Output&nbsp;Device
@@ -104,7 +127,7 @@ the advanced section, known configuration.</p>
 <p>Other USB devices will also appear in this list with a name related to the USB DAC - select from 
 these if you wish to use a usb device.</p>
 
-<h4>Via the CSOS Web configuration interface</h4>
+<h4><span id="Via_the_CSOS_Web_Configuration_Interface">Via the CSOS Web Configuration Interface</span></h4>
 
 <p>Selecting &quot;Squeezelite Player&quot; from the CSOS Web Configuration interface provides a 
 configuration page which allows the Squeezelite configuration parameters to be set. You should 
@@ -120,7 +143,7 @@ configuration.</p>
 
 <hr />
 
-<h3>Advanced Configuration</h3>
+<h3><span id="Advanced_Configuration">Advanced Configuration</span></h3>
 
 <p>Advanced configuration is normally only needed to turn the configuration for specific audio devices 
 to enable better compatibility with certain devices. The CSOS Web Configuration interfaces provides 
@@ -130,7 +153,7 @@ additional options from the Settings &gt; Audio Settings &gt; Audio Output Devic
 
 <p>Settings which you can adjust from both interfaces</p>
 
-<h4>Alsa Parameters</h4>
+<h4><span id="Alsa_Parameters">Alsa Parameters</span></h4>
 
 <p>This defines the specific internal audio configuration used to interface to the device. It is made 
 up of four separate parameters which are configured separately from the Jivelite HDMI User Interface 
@@ -145,7 +168,7 @@ if you hear drop outs</li>
 <li>Use MMAP - Some devices may need this set to &quot;0&quot; to avoid use of MMAP output</li>
 </ol>
 
-<h5>Know configurations</h5>
+<h5><span id="Know_Configurations">Know Configurations</span></h5>
 
 <ol>
 <li>The sgtl5000 on-board audio device works best in 16 bit mode. 
@@ -160,15 +183,17 @@ they are not user set and the HDMI device is the chosen output device.
 (ie. the field is left blank and not populated by the user.)
 </li>
 </ol>
+<p />
 
-<h4>Max Sample Rate</h4>
+<h4><span id="Max_Sample_Rate">Max Sample Rate</span></h4>
 
 <p>This defines the maximum sample rate supported by an audio device. There is no need to set this 
 for built in devices or for DAC's which are permanently connected to the CSOS player as this will be 
 automatically detected at power on. However for USB DAC's which may be powered off when you start up 
 the player, setting this allows the player to know your DAC's capabilities.</p>
 
-<h5>Settings only available from the Web Configuration interface</h5>
+<h5><span id="Settings_only_available_from_the_Web_Configuration_Interface">
+Settings only available from the Web Configuration Interface</span></h5>
 
 <ol>
 <li>Name - Enables the name of your player to be set, this overrides the setting within LMS.</li>
@@ -181,7 +206,7 @@ required by experience users who wish to tweak their configuration. Please don't
 you know what these do.</p>
 <hr />
 
-<h3>Command Line Options</h3>
+<h3><span id="Command_Line_Options">Command Line Options</span></h3>
 <pre>Squeezelite v1.1, Copyright 2012, 2013 Adrian Smith. See -t for license terms
 Usage: squeezelite [options] [&lt;server&gt;]
   &lt;server&gt;		Connect to specified server, otherwise uses autodiscovery to find server
@@ -204,7 +229,7 @@ Usage: squeezelite [options] [&lt;server&gt;]
 </pre>
 <hr />
 
-<h3>Source Code</h3>
+<h3><span id="Source_Code">Source Code</span></h3>
 <p>Squeezelite was written by, and is Copyright &copy; 2012, 2013 Adrian Smith.</p>
 <p>Squeezelite source code is hosted by Google Code. 
 <s:a href="http://code.google.com/p/squeezelite/" target="blank_">
@@ -212,7 +237,7 @@ Squeezelite Git Source Repository</s:a>.
 </p>
 <hr />
 
-<h3><s:text name="header.author" /></h3>
+<h3><span id="Author"><s:text name="header.author" /></span></h3>
 <p>This information on this page was authored by 
 <s:a href="http://forums.slimdevices.com/member.php?17-Triode" 
      target="blank_">Triode</s:a>, with minor contributions from 
