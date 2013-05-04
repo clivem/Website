@@ -182,9 +182,7 @@ you know what these do.</p>
 <hr />
 
 <h3>Command Line Options</h3>
-<pre>
-
-Squeezelite v1.1, Copyright 2012, 2013 Adrian Smith. See -t for license terms
+<pre>Squeezelite v1.1, Copyright 2012, 2013 Adrian Smith. See -t for license terms
 Usage: squeezelite [options] [&lt;server&gt;]
   &lt;server&gt;		Connect to specified server, otherwise uses autodiscovery to find server
   -o &lt;output device&gt;	Specify output device, default &quot;default&quot;
