@@ -91,7 +91,7 @@ LMS needs to be enabled and started, either via the CSOS Web Configuration Inter
 sudo systemctl start squeezeboxserver.service
 </pre>
 
-<h5>Fedora 18 i686 and x86_64</h5>
+<h5><span id="Fedora_18_i686_and_x86_64">Fedora 18 i686 and x86_64</span></h5>
 
 <p>If you have previously installed a Logitech provided LMS (logitechmediaserver) rpm package, remove it! 
 (The support issues so far have been due to people doing all sorts of wierd and wonderful things to try and get the 
