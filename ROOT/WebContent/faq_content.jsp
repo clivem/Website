@@ -293,8 +293,7 @@ Both 5.5mm x 2.1mm and 5.5mm x 2.5mm connectors can be used.</p>
  
 <h5><span id="If_you_get_a_Wandboard_now__can_you_re-use_its_CPU_card_for_later_releases.3F">If you 
   get a Wandboard now, can you re-use its CPU card for later releases?</span></h5> 
-<p>Maybe, but at the present time we don't know yet whether we will be releasing the later products 
-without CPU modules.</p> 
+<p>Yes, the CPU module will be compatible with CSP1 and CSP 2</p> 
  
 <h5><span id="How_can_I_be_a_beta_tester_for_CSP1.3F">How can I be a beta tester for CSP1?</span></h5> 
 <p>There is no official beta group yet, no official &quot;list&quot;. When CSP1 is getting closer 
