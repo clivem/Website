@@ -257,7 +257,7 @@ server for configuration purposes.</p>
 <h5><span id="What_s_after_CSP1.3F">What's after CSP1?</span></h5> 
 <p>CSP2 will be the general release version. It is expected that there will be at least 2 distributors, 
 one in Europe and the other in the USA. 
-It is hoped (but to be confirmed) that there will be the option of purchasing the bare DAC carrier board, 
+It is hoped that there will be the option of purchasing the bare DAC carrier board, 
 or a ready to go, pre-built player, assembled, tested and comprising the DAC carrier board, 
 Wandboard Dual CPU board, Hammond extruded aluminium chassis, front/rear panels, (glass fibre PCB 
 material), a power supply, and a pre-imaged SD card.</p> 
