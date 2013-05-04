@@ -68,6 +68,12 @@
 		</s:a>
 	</span> 
 
+	<span id="nav-wandboard">
+		<s:a href="wandboard.jsp">
+			<s:text name="nav.wandboard" />
+		</s:a>
+	</span> 
+
 	<span id="nav-help">
 		<s:a href="help.jsp">
 			<s:text name="nav.help" />
