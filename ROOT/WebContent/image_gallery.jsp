@@ -32,7 +32,18 @@
 
 <hr />
 
-<h5>Wandboard and DacMagic Plus <i>by lintweaker</i></h5>
+<h3><s:text name="header.contents" /></h3>
+<ol>
+	<li><s:a href="#lintweaker">Wandboard and DacMagic Plus (by lintweaker)</s:a></li>
+	<li><s:a href="#dsdreamer">Wandboard, REGA DAC and Musical Fidelity V-Link 192 DAC (by dsdreamer)</s:a></li>
+	<li><s:a href="#Pascal_Hibon">Wandboard, DIY COAX SPDIF Output and VU Meters (by Pascal Hibon)</s:a></li>
+	<li><s:a href="#michaelvv">Wandboard and Audio-GD DAC (by michaelvv)</s:a></li>
+	<li><s:a href="#albertone74">Wandboard Audio/Visual Setup (by albertone74)</s:a></li>
+	<li><s:a href="#castalla">Cubieboard (by castalla)</s:a></li>
+</ol>
+<hr />
+
+<h5><span id="lintweaker">Wandboard and DacMagic Plus <i>by lintweaker</i></span></h5>
 
 <p>&quot;Here's my current setup for experimenting with my Wandboard Dual running the Fedora 18 ARM based Community 
 Squeeze OS. The Wandboard for me is the ideal platform for building a capable audio player. It's meant to become a 
@@ -51,7 +62,7 @@ everything to 24bit/384k. If needed the DAC can be switched to USB1.1 mode (UAC1
 </p>
 <hr />
 
-<h5>Wandboard, REGA DAC and Musical Fidelity V-Link 192 DAC <i>by dsdreamer</i></h5>
+<h5><span id="dsdreamer">Wandboard, REGA DAC and Musical Fidelity V-Link 192 DAC <i>by dsdreamer</i></span></h5>
 <p>&quot;Here is a 3-box wireless streaming solution consisting of a Wandboard running CSOS, connected to a 
 Musical Fidelity V-Link 192 USB-to-SPDIF converter that drives a Rega DAC over a 75 Ohm coaxial connection.
 The MF V-Link 192 is an asynchronous USB Audio Class 2 device, which I've found to work reliably at all 
@@ -79,7 +90,7 @@ long time!&quot;
 </p>
 <hr />
 
-<h5>Wandboard, DIY COAX SPDIF Output and VU Meters <i>by Pascal Hibon</i></h5>
+<h5><span id="Pascal_Hibon">Wandboard, DIY COAX SPDIF Output and VU Meters <i>by Pascal Hibon</i></span></h5>
 <p>&quot;Although I have no immediate need for an additional Squeezebox, (I currently have 2x SB Touch, 
 1x SB Radio, 1x SB Boom and 1x SB Classic), I found the Community Squeeze project a great initiative. 
 That is the main reason for me purchasing a Wandboard and start testing it too.&quot;
@@ -121,7 +132,7 @@ the front panel of my prototype Community Squeeze Player.)&quot;
 </p>
 <hr />
 
-<h5>Wandboard and Audio-GD DAC <i>by michaelvv</i></h5>
+<h5><span id="michaelvv">Wandboard and Audio-GD DAC <i>by michaelvv</i></span></h5>
 <img src="html/images/photos/wb_audio-gd_dac_michaelvv_640x426.jpg" 
      alt="Wandboard and Audio-GD DAC contributed by michaelvv" width="640" height="426" />
 <br class="separator" />
@@ -131,7 +142,7 @@ the front panel of my prototype Community Squeeze Player.)&quot;
 </p>
 <hr />
 
-<h5>Wandboard Audio/Visual Setup <i>by albertone74</i></h5>
+<h5><span id="albertone74">Wandboard Audio/Visual Setup <i>by albertone74</i></span></h5>
 <img src="html/images/photos/wb_audio_visual_albertone_640x478.jpg" 
      alt="Wandboard Audio/Visual Setup contributed by albertone74" width="640" height="478" />
 <br class="separator" />
@@ -150,7 +161,7 @@ the front panel of my prototype Community Squeeze Player.)&quot;
 </p>
 <hr />
 
-<h5>Cubieboard <i>by castalla</i></h5>
+<h5><span id="castalla">Cubieboard <i>by castalla</i></span></h5>
 <p>&quot;Cubieboard Fedora 18 running LMS 7.8, Squeezelite 1.1 playing via  
 bluetooth to Soundwave speaker.&quot;
 </p>
