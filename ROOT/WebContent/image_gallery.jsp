@@ -51,7 +51,7 @@ everything to 24bit/384k. If needed the DAC can be switched to USB1.1 mode (UAC1
 </p>
 <hr />
 
-<h5>Wandboard, REGA DAC and Musical Fidelity V-Link 192 DAC<i>by dsdreamer</i></h5>
+<h5>Wandboard, REGA DAC and Musical Fidelity V-Link 192 DAC <i>by dsdreamer</i></h5>
 <p>&quot;Here is a 3-box wireless streaming solution consisting of a Wandboard running CSOS, connected to a 
 Musical Fidelity V-Link 192 USB-to-SPDIF converter that drives a Rega DAC over a 75 Ohm coaxial connection.
 The MF V-Link 192 is an asynchronous USB Audio Class 2 device, which I've found to work reliably at all 
