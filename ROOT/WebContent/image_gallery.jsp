@@ -111,6 +111,20 @@ Contributed by
 </p>
 <hr />
 
+<h5>Cubieboard</h5>
+
+<p>Cubieboard Fedora 18 running LMS 7.8, Squeezelite 1.1 playing via  
+bluetooth to Soundwave speaker.</p>
+<img src="html/images/photos/cubie_castalla_640x480.jpg" 
+     alt="Cubieboard contributed by castalla" width="640" height="480" />
+<br class="separator" />
+<p>
+Contributed by
+<s:a href="http://forums.slimdevices.com/member.php?15624-castalla" 
+     target="blank_">castalla</s:a>.
+</p>
+<hr />
+
 <jsp:include page="Footer.jsp"/>
 
 </body>
