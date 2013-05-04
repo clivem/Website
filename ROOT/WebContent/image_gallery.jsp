@@ -107,7 +107,7 @@ To give my Community Squeeze Player the same vintage look I'll be fitting a pair
 vintage VU meters. 
 I'm planning on using the analog output of the Wandboard to drive the meters. I have successfully 
 sync'ed the digital and analog outputs on the Wandboard, (with a little help from Clive), by 
-using a custom ASLA configuration to combine the analog and spdif audio devices into a single output 
+using a custom ALSA configuration to combine the analog and spdif audio devices into a single output 
 that is driven by Squeezelite. That works, but from time to time I experience some audio drop 
 outs due to the fact that the Wandboard drivers currently use different clocks to drive the 
 digital and analog outputs. A code change is required to correct this. (Below is a picture of 
