@@ -105,16 +105,38 @@ the Wandboard, connected by either coax SPDIF, Toslink SPDIF or the USB port.&qu
 create a small digital I/O board that holds both coax and optical SPDIF. (Shown in the picture 
 below.)&quot; 
 </p>
-<s:a href="html/images/photos/wb_coax_pascal_hibon_800x534.jpg" target="blank_">
-<img src="html/images/photos/wb_coax_pascal_hibon_432x282.jpg"
+<table>
+<tr>
+<td>
+<s:a href="html/images/photos/wb_coax_pascal_hibon_1024x682.jpg" target="blank_">
+<img src="html/images/photos/wb_coax_pascal_hibon_532x354.jpg"
      title="Click for higher resolution image" 
-     alt="Wandboard and DIY COAX SPDIF Output contributed by Pascal Hibon" width="432" height="282" />
+     alt="Wandboard and DIY COAX SPDIF Output contributed by Pascal Hibon" width="532" height="354" />
 </s:a>
-<br class="separator" />
+</td>
+<td valign="bottom">
+<s:a href="html/images/photos/wb_coax_circuit_diagram_pascal_hibon_640x520.jpg" target="blank_">
+<img src="html/images/photos/wb_coax_circuit_diagram_pascal_hibon_320x260.jpg"
+     title="Click for higher resolution image" 
+     alt="Wandboard and DIY COAX SPDIF Output Circuit Diagram contributed by Pascal Hibon" width="320" height="260" />
+</s:a>
+</td>
+</tr>
+<tr>
+<td>
 <p class="language">Contributed by
 <s:a href="http://forums.slimdevices.com/member.php?7969-Pascal-Hibon" 
      target="blank_">Pascal Hibon</s:a>.
 </p>
+</td>
+<td>
+<p class="language">Contributed by
+<s:a href="http://forums.slimdevices.com/member.php?7969-Pascal-Hibon" 
+     target="blank_">Pascal Hibon</s:a>.
+</p>
+</td>
+</tr>
+</table>
 <p>&quot;You may have noticed that the Wandboard is mounted on a piece of wood. The wood has the same 
 dimensions as my M-DAC and the idea is to create a beautiful enclosure that nicely fits the M-DAC. 
 I talked to John Westlake, the guy behind the M-DAC and creator of the upcoming Lakewest products, 
