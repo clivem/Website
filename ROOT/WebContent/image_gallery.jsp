@@ -45,13 +45,15 @@
 
 <h5><span id="lintweaker">Wandboard and DacMagic Plus <i>by lintweaker</i></span></h5>
 
-<p>&quot;Here's my current setup for experimenting with my Wandboard Dual running the Fedora 18 ARM based Community 
-Squeeze OS. The Wandboard for me is the ideal platform for building a capable audio player. It's meant to become a 
-replacement for my Squeezebox Touches. The Cambridge Audio DacMagic Plus works straight out of the box up to 192k 
-using USB (UAC2 mode). In the current test setup I mainly use it as a headphones amplifier. The DAC will upsample 
-everything to 24bit/384k. If needed the DAC can be switched to USB1.1 mode (UAC1) which limits it to 96k.
+<p>&quot;Here's my current setup for experimenting with my Wandboard Dual running the Fedora 18 ARM 
+based Community Squeeze OS. The Wandboard for me is the ideal platform for building a capable audio 
+player. It's meant to become a replacement for my Squeezebox Touches. The Cambridge Audio DacMagic 
+Plus works straight out of the box up to 192k using USB (UAC2 mode). In the current test setup I 
+mainly use it as a headphones amplifier. The DAC will upsample everything to 24bit/384k. If needed 
+the DAC can be switched to USB1.1 mode (UAC1) which limits it to 96k.&quot;
 </p>
-<p>The little Wandboard is perfectly capable of running the Logitech Media Server, so need separate server needed!&quot;
+<p>&quot;The little Wandboard is perfectly capable of running the Logitech Media Server, so need 
+separate server needed!&quot;
 </p>
 <img src="html/images/photos/wb_dacmagicplus_lintweaker_640_427.jpg" 
      alt="Wandboard and DACMagic Plus contributed by lintweaker" width="640" height="427" />
@@ -112,6 +114,11 @@ below.)&quot;
 <p class="language">Contributed by
 <s:a href="http://forums.slimdevices.com/member.php?7969-Pascal-Hibon" 
      target="blank_">Pascal Hibon</s:a>.
+</p>
+<p>&quot;You may have noticed that the Wandboard is mounted on a piece of wood. The wood has the same 
+dimensions as my M-DAC and the idea is to create a beautiful enclosure that nicely fits the M-DAC. 
+I talked to John Westlake, the guy behind the M-DAC and creator of the upcoming Lakewest products, 
+and he will be supplying me an empty MPAX housing. So keep peeking back here for more updates...&quot;
 </p>
 <p>&quot;Since I started using Squeezeboxes I've been a fan of the analog VU meter screensavers. 
 To give my Community Squeeze Player the same vintage look I'll be fitting a pair of 
