@@ -34,12 +34,12 @@
 
 <h3><s:text name="header.contents" /></h3>
 <ol>
-	<li><s:a href="#lintweaker">Wandboard and DacMagic Plus (by lintweaker)</s:a></li>
-	<li><s:a href="#dsdreamer">Wandboard, REGA DAC and Musical Fidelity V-Link 192 DAC (by dsdreamer)</s:a></li>
-	<li><s:a href="#Pascal_Hibon">Wandboard, DIY COAX SPDIF Output and VU Meters (by Pascal Hibon)</s:a></li>
-	<li><s:a href="#michaelvv">Wandboard and Audio-GD DAC (by michaelvv)</s:a></li>
-	<li><s:a href="#albertone74">Wandboard Audio/Visual Setup (by albertone74)</s:a></li>
-	<li><s:a href="#castalla">Cubieboard (by castalla)</s:a></li>
+	<li><s:a href="#lintweaker">Wandboard and DacMagic Plus</s:a> by lintweaker.</li>
+	<li><s:a href="#dsdreamer">Wandboard, REGA DAC and Musical Fidelity V-Link 192 DAC</s:a> by dsdreamer.</li>
+	<li><s:a href="#Pascal_Hibon">Wandboard, DIY COAX SPDIF Output and VU Meters</s:a> by Pascal Hibon.</li>
+	<li><s:a href="#castalla">Cubieboard</s:a> by castalla.</li>
+	<li><s:a href="#albertone74">Wandboard Audio/Visual Setup</s:a> by albertone74.</li>
+	<li><s:a href="#michaelvv">Wandboard and Audio-GD DAC</s:a> by michaelvv.</li>
 </ol>
 <hr />
 
@@ -120,6 +120,12 @@ dimensions as my M-DAC and the idea is to create a beautiful enclosure that nice
 I talked to John Westlake, the guy behind the M-DAC and creator of the upcoming Lakewest products, 
 and he will be supplying me an empty MPAX housing. So keep peeking back here for more updates...&quot;
 </p>
+<img src="html/images/photos/vu_pascal_hibon_640x163.jpg"
+     alt="VU Meter contributed by Pascal Hibon" width="640" height="163" />
+<p class="language">Contributed by
+<s:a href="http://forums.slimdevices.com/member.php?7969-Pascal-Hibon" 
+     target="blank_">Pascal Hibon</s:a>.
+</p>
 <p>&quot;Since I started using Squeezeboxes I've been a fan of the analog VU meter screensavers. 
 To give my Community Squeeze Player the same vintage look I'll be fitting a pair of 
 vintage VU meters. 
@@ -128,43 +134,8 @@ sync'ed the digital and analog outputs on the Wandboard, (with a little help fro
 using a custom ALSA configuration to combine the analog and spdif audio devices into a single output 
 that is driven by Squeezelite. That works, but from time to time I experience some audio drop 
 outs due to the fact that the Wandboard drivers currently use different clocks to drive the 
-digital and analog outputs. A code change is required to correct this. (Below is a picture of 
+digital and analog outputs. A code change is required to correct this. (Above is a picture of 
 the front panel of my prototype Community Squeeze Player.)&quot;
-</p>
-<img src="html/images/photos/vu_pascal_hibon_640x163.jpg"
-     alt="VU Meter contributed by Pascal Hibon" width="640" height="163" />
-<p class="language">Contributed by
-<s:a href="http://forums.slimdevices.com/member.php?7969-Pascal-Hibon" 
-     target="blank_">Pascal Hibon</s:a>.
-</p>
-<hr />
-
-<h5><span id="michaelvv">Wandboard and Audio-GD DAC <i>by michaelvv</i></span></h5>
-<img src="html/images/photos/wb_audio-gd_dac_michaelvv_640x426.jpg" 
-     alt="Wandboard and Audio-GD DAC contributed by michaelvv" width="640" height="426" />
-<br class="separator" />
-<p class="language">Contributed by
-<s:a href="http://forums.slimdevices.com/member.php?59321-michaelvv" 
-     target="blank_">michaelvv</s:a>.
-</p>
-<hr />
-
-<h5><span id="albertone74">Wandboard Audio/Visual Setup <i>by albertone74</i></span></h5>
-<img src="html/images/photos/wb_audio_visual_albertone_640x478.jpg" 
-     alt="Wandboard Audio/Visual Setup contributed by albertone74" width="640" height="478" />
-<br class="separator" />
-<p class="language">Contributed by
-<s:a href="http://forums.slimdevices.com/member.php?23863-albertone74" 
-     target="blank_">albertone74</s:a>.
-</p>
-<p>A close-up of the Wandboard.
-</p>
-<img src="html/images/photos/wb_albertone_640x478.jpg" 
-     alt="Wandboard Audio/Visual Setup contributed by albertone74" width="640" height="478" />
-<br class="separator" />
-<p class="language">Contributed by
-<s:a href="http://forums.slimdevices.com/member.php?23863-albertone74" 
-     target="blank_">albertone74</s:a>.
 </p>
 <hr />
 
@@ -187,6 +158,35 @@ repository on <s:a href="repo.jsp#Fedora_18_i686_and_x86_64">Fedora 18 i686 and 
 <p class="language">Contributed by
 <s:a href="http://forums.slimdevices.com/member.php?15624-castalla" 
      target="blank_">castalla</s:a>.
+</p>
+<hr />
+
+<h5><span id="albertone74">Wandboard Audio/Visual Setup <i>by albertone74</i></span></h5>
+<img src="html/images/photos/wb_audio_visual_albertone_640x478.jpg" 
+     alt="Wandboard Audio/Visual Setup contributed by albertone74" width="640" height="478" />
+<br class="separator" />
+<p class="language">Contributed by
+<s:a href="http://forums.slimdevices.com/member.php?23863-albertone74" 
+     target="blank_">albertone74</s:a>.
+</p>
+<p>A close-up of the Wandboard.
+</p>
+<img src="html/images/photos/wb_albertone_640x478.jpg" 
+     alt="Wandboard Audio/Visual Setup contributed by albertone74" width="640" height="478" />
+<br class="separator" />
+<p class="language">Contributed by
+<s:a href="http://forums.slimdevices.com/member.php?23863-albertone74" 
+     target="blank_">albertone74</s:a>.
+</p>
+<hr />
+
+<h5><span id="michaelvv">Wandboard and Audio-GD DAC <i>by michaelvv</i></span></h5>
+<img src="html/images/photos/wb_audio-gd_dac_michaelvv_640x426.jpg" 
+     alt="Wandboard and Audio-GD DAC contributed by michaelvv" width="640" height="426" />
+<br class="separator" />
+<p class="language">Contributed by
+<s:a href="http://forums.slimdevices.com/member.php?59321-michaelvv" 
+     target="blank_">michaelvv</s:a>.
 </p>
 <hr />
 
