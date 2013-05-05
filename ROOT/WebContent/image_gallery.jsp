@@ -115,10 +115,10 @@ below.)&quot;
 </s:a>
 </td>
 <td valign="bottom">
-<s:a href="html/images/photos/wb_coax_circuit_diagram_pascal_hibon_640x520.jpg" target="blank_">
-<img src="html/images/photos/wb_coax_circuit_diagram_pascal_hibon_320x260.jpg"
+<s:a href="html/images/photos/wb_coax_circuit_diagram_pascal_hibon_577x385.jpg" target="blank_">
+<img src="html/images/photos/wb_coax_circuit_diagram_pascal_hibon_320x214.jpg"
      title="Click for higher resolution image" 
-     alt="Wandboard and DIY COAX SPDIF Output Circuit Diagram contributed by Pascal Hibon" width="320" height="260" />
+     alt="Wandboard and DIY COAX SPDIF Output Circuit Diagram contributed by Pascal Hibon" width="320" height="214" />
 </s:a>
 </td>
 </tr>
