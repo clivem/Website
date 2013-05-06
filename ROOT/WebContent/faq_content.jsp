@@ -1,66 +1,67 @@
 <%@ taglib uri="/struts-tags" prefix="s"%>    
 
-<h3><s:text name="header.faq" /> (0.93-CM)</h3>	
+<h3><s:text name="header.faq" /> (0.94-CM)</h3>	
 
 <ol>
+  <h5>General</h5>
   <li><s:a href="#What_is_Community_Squeeze.3F">What is Community Squeeze?</s:a></li>
-  <li><s:a href="#What_hardware_does_it_use.3F">What hardware does it use?</s:a></li>
-  <li><s:a href="#What_software_does_it_run.3F">What software does it run?</s:a></li>
   <li><s:a href="#Who_are_the_main_contributors.3F">Who are the main contributors?</s:a></li>
-  <li><s:a href="#What_audio_interfaces_are_going_to_be_supported.3F">What audio interfaces 
-    are going to be supported?</s:a></li>
-  <li><s:a href="#What_is_the_on_board_DAC.3F">What is the on board DAC?</s:a></li>
+  <li><s:a href="#What_hardware_does_it_use.3F">What hardware will be produced?</s:a></li>
+  <li><s:a href="#What_software_does_it_run.3F">What software does it run?</s:a></li>
+  <li><s:a href="#What_do_you_need_to_get_started_with_CSOS_ahead_of_a_finished_product.3F">What 
+    do you need to get started with the Community Squeeze OS (CSOS) ahead of a finished product?</s:a></li>
+  <li><s:a href="#Where_can_you_buy_a_Wandboard.3F">Where can you buy a Wandboard?</s:a></li>
+  <li><s:a href="#Can_I_use_an_external_DAC_with_the_Wandboard.3F">Can I se an external DAC with the Wandboard?</s:a></li>
   <li><s:a href="#Which_external_DAC_s_have_been_tested_with_the_Wandboard.3F">Which external 
     DAC's have been tested with the Wandboard?</s:a></li>
-  <li><s:a href="#What_do_you_need_to_get_started_with_CSOS_ahead_of_a_finished_product.3F">What 
-    do you need to get started with CSOS ahead of a finished product?</s:a></li>
-  <li><s:a href="#Is_there_a_bug_list.3F">Is there a bug list?</s:a></li>
-  <li><s:a href="#Where_can_you_buy_a_Wandboard.3F">Where can you buy a Wandboard?</s:a></li>
-  <li><s:a href="#What_s_the_audio_hardware.3F">What's the audio hardware?</s:a></li>
-  <li><s:a href="#What_s_SWAMP0.5.3F">What's SWAMP0.5?</s:a></li>
-  <li><s:a href="#What_s_CSP1.3F">What's CSP1?</s:a></li>
-  <li><s:a href="#Can_you_re-order_the_jacks.3F">Can you re-order the jacks?</s:a></li>
-  <li><s:a href="#Is_there_going_to_be_a_status_LED.3F">Is there going to be a status LED?</s:a></li>
-  <li><s:a href="#Will_there_be_balanced_outputs_on_CSP1.3F">Will there be balanced outputs 
-    on CSP1?</s:a></li>
-  <li><s:a href="#Is_there_anything_on_the_front_panel_in_CSP1.3F">Is there anything on the 
-    front panel in CSP1?</s:a></li>
-  <li><s:a href="#Are_there_any_hooks_for_experimenters.3F">Are there any hooks for 
-    experimenters?</s:a></li>
-  <li><s:a href="#Will_there_be_a_user_interface_on_CSP1.3F">Will there be a user interface on CSP1?</s:a></li>
-  <li><s:a href="#How_can_you_control_CSP1.3F">How can you control CSP1?</s:a></li>
-  <li><s:a href="#How_many_CSP1_s_will_be_made.3F">How many CSP1's will be made?</s:a></li>
-  <li><s:a href="#What_s_after_CSP1.3F">What's after CSP1?</s:a></li>
-  <li><s:a href="#Is_CSP1_CSP2_going_to_include_IR_receivers_blasters.3F">Is CSP1/CSP2 going to 
-    include IR receivers/blasters?</s:a></li>
-  <li><s:a href="#Is_it_possible_to_have_audio_on_SPDIF_and_analog_at_the_same_time.3F">Is it possible 
-    to have audio on SPDIF and analog at the same time?</s:a></li>
-  <li><s:a href="#Will_CSP1_come_with_trigger_outputs.3F">Will CSP1 come with trigger outputs?</s:a></li>
-  <li><s:a href="#What_about_CSP2.3F">What about CSP2?</s:a></li>
-  <li><s:a href="#What_is_the_PSU_for_CSP1.3F">What is the PSU for CSP1?</s:a></li>
   <li><s:a href="#If_you_get_a_Wandboard_now__can_you_re-use_its_CPU_card_for_later_releases.3F">If you 
     get a Wandboard now, can you re-use its CPU card for later releases?</s:a></li>
-  <li><s:a href="#How_can_I_be_a_beta_tester_for_CSP1.3F">How can I be a beta tester for CSP1?</s:a></li>
-  <li><s:a href="#Will_the_CSOS_be_embedded_on_the_board_in_Gen2.3F">Will the CSOS be embedded on the 
-    board in Gen2?</s:a></li>
   <li><s:a href="#Will_Wi-Fi_be_supported.3F">Will Wi-Fi be supported?</s:a></li>
   <li><s:a href="#How_well_will_this_player_synchronise_with_existing_Squeezeboxes.3F">How well will 
     this player synchronise with existing Squeezeboxes?</s:a></li>
   <li><s:a href="#How_easy_is_it_to_setup.3F">How easy is it to setup?</s:a></li>
-  <li><s:a href="#How_will_you_control_it_if_it_doesn_t_have_a_display.3F">How will you control it if 
-    it doesn't have a display?</s:a></li>
-  <li><s:a href="#Do_you_need_to_be_familiar_with_Linux_to_get_this_all_to_work.3F">Do you need to be 
-    familiar with Linux to get this all to work?</s:a></li>
+
+  <h5>Hardware</h5>
+  <li><s:a href="#What_s_the_audio_hardware.3F>What does the Community Squeeze hardware consist of?</s:a></li>
+  <li><s:a href="#What_s_SWAMP0.5.3F">What's SWAMP0.5?</s:a></li>
+  <li><s:a href="#What_audio_interfaces_are_going_to_be_supported.3F">What audio interfaces 
+    are going to be supported?</s:a></li>
+  <li><s:a href="#What_is_the_on_board_DAC.3F">What is the on board DAC?</s:a></li>
+  <li><s:a href="#What_s_CSP1.3F">What's CSP1?</s:a></li>
+  <li><s:a href="#How_many_CSP1_s_will_be_made.3F">How many CSP1's will be made?</s:a></li>
+  <li><s:a href="#How_can_I_be_a_beta_tester_for_CSP1.3F">How can I be a beta tester for CSP1?</s:a></li>
+  <li><s:a href="#What_s_after_CSP1.3F">What's after CSP1?</s:a></li>
+  <li><s:a href="#Can_you_re-order_the_jacks.3F">Can you re-order the jacks on CSP1/2?</s:a></li>
+  <li><s:a href="#Is_there_going_to_be_a_status_LED.3F">Is there going to be a status LED on CSP1/2?</s:a></li>
+  <li><s:a href="#Will_there_be_balanced_outputs_on_CSP1.3F">Will there be balanced outputs 
+    on CSP1/2?</s:a></li>
+  <li><s:a href="#Are_there_any_hooks_for_experimenters.3F">Are there any hooks for 
+    experimenters on CSP1/2?</s:a></li>
+  <li><s:a href="#Will_there_be_a_user_interface_on_CSP1.3F">Will there be a user interface on CSP1/2?</s:a></li>
+  <li><s:a href="#How_can_you_control_CSP1.3F">How can you control CSP1/2 if it doesn't have a display?</s:a></li>
+  <li><s:a href="#Is_CSP1_CSP2_going_to_include_IR_receivers_blasters.3F">Is CSP1/CSP2 going to 
+    include IR receivers/blasters?</s:a></li>
+  <li><s:a href="#Is_it_possible_to_have_audio_on_SPDIF_and_analog_at_the_same_time.3F">Is it possible 
+    to have audio on SPDIF and analog at the same time?</s:a></li>
+  <li><s:a href="#Will_CSP1_come_with_trigger_outputs.3F">Will CSP1/2 come with trigger outputs?</s:a></li>
+  <li><s:a href="#What_is_the_PSU_for_CSP1.3F">What is the PSU for CSP1/2?</s:a></li>
   <li><s:a href="#TOSLINK_isn_t_working_for_me_on_the_default_Wandboard_carrier_board__What_can_be_done.3F">
     TOSLINK isn't working for me on the default Wandboard carrier board. What can be done?</s:a></li>
   <li><s:a href="#Why_use_a_BNC_connector_for_co-axial_SPDIF_output.3F">Why use a BNC connector for 
     co-axial SPDIF output?</s:a></li>
   <li><s:a href="#How_do_you_use_a_SPDIF_cable_terminated_with_RCA_connectors_with_the_BNC_connector.3F">
     How do you use a SPDIF cable terminated with RCA connectors with the BNC connector?</s:a></li>
+
+  <h5>Software</h5>
+  <li><s:a href="#Do_you_need_to_be_familiar_with_Linux_to_get_this_all_to_work.3F">Do you need to be 
+    familiar with Linux to get this all to work?</s:a></li>
   <li><s:a href="#How_do_you_update_CSOS_on_the_Wandboard_when_new_software_is_released.3F">How do 
     you update CSOS on the Wandboard when new software is released?</s:a></li>
   <li><s:a href="#Does_the_Wandboard_have_enough_performance_to_reliably_run_LMS.3F">Does the 
     Wandboard have enough performance to reliably run LMS?</s:a></li>
+  <li><s:a href="#Will_the_CSOS_be_embedded_on_the_board_in_Gen2.3F">Will the CSOS be embedded on the 
+    board in Gen2?</s:a></li>
+  <li><s:a href="#Is_there_a_bug_list.3F">Is there a bug list?</s:a></li>
   <li><s:a href="#Sample_rate_test_files">Sample rate test files</s:a></li>
 </ol>
 <hr />
