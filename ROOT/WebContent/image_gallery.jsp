@@ -184,6 +184,18 @@ repository on <s:a href="repo.jsp#Fedora_18_i686_and_x86_64">Fedora 18 i686 and 
 <hr />
 
 <h5><span id="albertone74">Wandboard Audio/Visual Setup <i>by albertone74</i></span></h5>
+<p>&quot;I have been looking for a 'real' replacement for my so beloved Squeezebox Touch that 
+could also run the Logitech Media Server without sacrificing audio quality. I have been delighted 
+to have come across with the Wandboard hardware and the Community Squeeze Project. Such a great 
+and pleasant discovery!&quot;
+</p>
+<p>&quot;The first picture, (below), is showing my initial audio/video set-up with the Wandboard Dual 
+connected to the Cambridge Audio DACMagic via the USB port. Such a nice surprise to be able to 
+enjoy the beauty of the Jivelite interface on my 40&quot; TV, by surfing the Albums of my entire 
+music collection with the original Squeezebox IR remote control and a FLIRC IR receiver 
+connected to a USB Hub where both the DAC and the external hard drive, (all my music is stored as 
+FLAC on here), are also attached.&quot;
+</p>
 <img src="html/images/photos/wb_audio_visual_albertone_640x478.jpg" 
      alt="Wandboard Audio/Visual Setup contributed by albertone74" width="640" height="478" />
 <br class="separator" />
@@ -191,7 +203,9 @@ repository on <s:a href="repo.jsp#Fedora_18_i686_and_x86_64">Fedora 18 i686 and 
 <s:a href="http://forums.slimdevices.com/member.php?23863-albertone74" 
      target="blank_">albertone74</s:a>.
 </p>
-<p>A close-up of the Wandboard.
+<p>&quot;As a second set-up, I have been testing the Wandboard connected to the Little Dot DAC I, 
+which is sending the digital output to the Virtue Audio One Class-T amplifier, to enjoy my 
+music whenever my neighbors are out.&quot;
 </p>
 <img src="html/images/photos/wb_albertone_640x478.jpg" 
      alt="Wandboard Audio/Visual Setup contributed by albertone74" width="640" height="478" />
@@ -199,6 +213,12 @@ repository on <s:a href="repo.jsp#Fedora_18_i686_and_x86_64">Fedora 18 i686 and 
 <p class="language">Contributed by
 <s:a href="http://forums.slimdevices.com/member.php?23863-albertone74" 
      target="blank_">albertone74</s:a>.
+</p>
+<p>&quot;The second picture, (above), is a close-up view of the Wandboard Dual which is  
+connected to my router using the wired, ethernet interface. The digital output of the 
+Cambridge Audio DACMagic is sent to the Little Dot valve headphone amplifier. 
+Last but not least, testing different DAC's and exploring different solutions/configurations 
+is part of the fun. Ain't that good news!&quot;
 </p>
 <hr />
 
