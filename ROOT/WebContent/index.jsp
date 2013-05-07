@@ -66,8 +66,7 @@ supported by the repository.</p>
 <s:a href="http://www.arm.com/products/processors/technologies/neon.php"
      target="blank_">Neon</s:a> extensions and have been compiled with: 
 </p>
-<pre>-march=armv7-a -mfloat-abi=hard -mfpu=neon</pre>.
-<p />
+<pre>-march=armv7-a -mfloat-abi=hard -mfpu=neon</pre>
 <hr />
 
 	<!-- Footer -->
