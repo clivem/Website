@@ -1,9 +1,9 @@
 <%@ taglib uri="/struts-tags" prefix="s"%>    
 
-<h3><s:text name="header.faq" /> (0.94-CM)</h3>	
+<h3><s:text name="header.faq" /> (0.95-CM)</h3>	
 
+<h5><s:a href="#General">General</s:a></h5>
 <ol>
-  <h5>General</h5>
   <li><s:a href="#What_is_Community_Squeeze.3F">What is Community Squeeze?</s:a></li>
   <li><s:a href="#Who_are_the_main_contributors.3F">Who are the main contributors?</s:a></li>
   <li><s:a href="#What_hardware_does_it_use.3F">What hardware will be produced?</s:a></li>
@@ -20,9 +20,12 @@
   <li><s:a href="#How_well_will_this_player_synchronise_with_existing_Squeezeboxes.3F">How well will 
     this player synchronise with existing Squeezeboxes?</s:a></li>
   <li><s:a href="#How_easy_is_it_to_setup.3F">How easy is it to setup?</s:a></li>
+</ol>
+<p />
 
-  <h5>Hardware</h5>
-  <li><s:a href="#What_s_the_audio_hardware.3F>What does the Community Squeeze hardware consist of?</s:a></li>
+<h5><s:a href="#Hardware">Hardware</s:a></h5>
+<ol>
+  <li><s:a href="#What_s_the_audio_hardware.3F">What does the Community Squeeze hardware consist of</s:a></li>
   <li><s:a href="#What_s_SWAMP0.5.3F">What's SWAMP0.5?</s:a></li>
   <li><s:a href="#What_audio_interfaces_are_going_to_be_supported.3F">What audio interfaces 
     are going to be supported?</s:a></li>
@@ -51,8 +54,11 @@
     co-axial SPDIF output?</s:a></li>
   <li><s:a href="#How_do_you_use_a_SPDIF_cable_terminated_with_RCA_connectors_with_the_BNC_connector.3F">
     How do you use a SPDIF cable terminated with RCA connectors with the BNC connector?</s:a></li>
+</ol>
+<p />
 
-  <h5>Software</h5>
+<h5><s:a href="#Software">Software</s:a></h5>
+<ol>
   <li><s:a href="#Do_you_need_to_be_familiar_with_Linux_to_get_this_all_to_work.3F">Do you need to be 
     familiar with Linux to get this all to work?</s:a></li>
   <li><s:a href="#How_do_you_update_CSOS_on_the_Wandboard_when_new_software_is_released.3F">How do 
@@ -64,7 +70,10 @@
   <li><s:a href="#Is_there_a_bug_list.3F">Is there a bug list?</s:a></li>
   <li><s:a href="#Sample_rate_test_files">Sample rate test files</s:a></li>
 </ol>
+<p />
 <hr />
+
+<h2><i><span id="General">General</span></i></h2>
 
 <h5><span id="What_is_Community_Squeeze.3F">What is Community Squeeze?</span></h5>
 <p>It's a project to produce an audiophile quality Squeezebox compatible music player by various 
@@ -183,6 +192,9 @@ be improved.</p>
 Squeezeboxes. To configure wireless settings, such as entering a Wi-Fi password, you'll plug it 
 into your wired network. It will use DHCP to configure itself on the network, and then it will 
 have a built-in web interface for configuring Wi-Fi.</p> 
+
+<hr />
+<h2><i><span id="Hardware">Hardware</span></i></h2>
 
 <h5><span id="What_s_the_audio_hardware.3F">What does the Community Squeeze hardware consist of?</span></h5> 
 <p>There are going to be (at least) 3 versions of the audio carrier card that brings out audio 
@@ -341,6 +353,9 @@ much lower than 50R in any case.... The point being, that if you wish to follow 
 you need to use a good quality 75R cable, fitted with 75R BNC male connectors, with 75R BNC female 
 connectors being used on the receving/transmitting equipment.
 </p>
+
+<hr />
+<h2><i><span id="Software">Software</span></i></h2>
 
 <h5><span id="Do_you_need_to_be_familiar_with_Linux_to_get_this_all_to_work.3F">Do you need to be 
   familiar with Linux to get this all to work?</span></h5> 
