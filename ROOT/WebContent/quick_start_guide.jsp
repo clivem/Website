@@ -49,6 +49,9 @@
 	  Ethernet IP Address</s:a></li>
 	<li><s:a href="#Converting_to_Wireless">
 	  Converting to Wireless (Wi-Fi) Operation</s:a></li>
+	<li><s:a href="#Powering_Down">
+	  Powering Down The Wandboard/CSOS</s:a></li>
+	  
 </ol>
 <hr />
 
@@ -334,6 +337,35 @@ and information in the Notes section at the bottom of the wireless configuration
  Wandboard so you might be able to start it playing music without
  knowing the new IP address.</p>
 <hr />
+
+<h3><span id="Powering_Down">Powering Down The Wandboard/CSOS</span></h3>
+
+<p>If you need to turn the power off to your Wandboard it's not
+really a good idea to just pull out the power plug or switch off at
+the mains.</p>
+
+<p>The reason for this is that Linux based operating systems should
+be properly shut down before the power is removed; failure to do so
+can result in a corrupted file system.</p>
+
+<p>To shut down your Wandboard CSOS system properly you'll need to
+access the web interface as described in the <s:a href="#Ethernet_IP_Address">Ethernet IP Address</s:a>
+section of this document. Select the &ldquo;Shutdown&rdquo; option
+from the main menu then click on the &ldquo;Halt&rdquo; button. You
+will then need to wait for at least 30 seconds before actually
+removing the power.</p>
+
+<p>If you should <i>inadvertently</i> remove the power without shutting down
+properly first, then as mentioned above you might corrupt the file
+system, however, it is fairly unlikely that this will happen and, if
+it does, CSOS will try to repair itself when it is next powered up
+(it might take longer to boot when you re-apply the power). However, if the
+Wandboard fails to boot at all, then it's likely that the file system
+is corrupted beyond repair and you will have to resort to re-copying the
+image to the <s:a href="#Writing_the_CSOS_image_file_to_a_MicroSD_card">microSD card</s:a> again.</p>
+
+<hr />
+
 
 <h3><s:text name="header.author" /></h3>
 
