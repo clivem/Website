@@ -32,7 +32,27 @@
 
 <hr />
 
-<h3><s:text name="header.introduction" /></h3>
+<h3><s:text name="header.contents" /></h3>
+<ol>
+	<li><s:a href="#Introduction"><s:text name="header.introduction" /></s:a></li>
+	<li><s:a href="#Connecting_a_Screen">
+	  Connecting a Screen</s:a></li>
+	<li><s:a href="#Connecting_an_Input_Device">
+	  Connecting an Input Device</s:a></li>
+	<li><s:a href="#FLIRC_Configuration_File">
+	  FLIRC Configuration File</s:a></li>
+	<li><s:a href="#Plugging_and_Playing">
+	  Plugging and Playing</s:a></li>
+	<li><s:a href="#Pictures">
+	  Pictures</s:a></li>
+	<li><s:a href="#Source_Code">
+	  Source Code</s:a></li>
+	<li><s:a href="#Author">
+	  Author</s:a></li>
+</ol>
+<hr />
+
+<h3><span id="Introduction"><s:text name="header.introduction" /></span></h3>
 
 <p>
 <img src="html/images/jivelite/jivelite_1_640x427.png" 
@@ -49,7 +69,7 @@ should feel right at home! New users will also appreciate the
 uncluttered and intuitive user interface.</p>
 <hr />
 
-<h3>Connecting a Screen</h3>
+<h3><span id="Connecting_a_Screen">Connecting a Screen</span></h3>
 <p>To use Jivelite on a Wandboard you will need to connect a suitable high-resolution display to 
 the HDMI port on your device. At present, the available HD skins support a selection of common
 resolutions:</p>
@@ -62,7 +82,7 @@ resolutions:</p>
 available.</p>
 <hr />
 
-<h3>Connecting an Input Device</h3>
+<h3><span id="Connecting_an_Input_Device">Connecting an Input Device</span></h3>
 <p>To navigate the Jivelite screens and menus you will need an input device with physical keys, 
 eg. a infra-red (IR) remote control or a computer keyboard. There is no official touch screen
 hardware at present. A good solution for IR remote control support is to purchase a 
@@ -71,14 +91,25 @@ wireless USB keyboards can also be used, although a full-sized QUERTY keyboard i
 living room use.</p>
 <hr />
 
-<h3>FLIRC Configuration File</h3>
+<h3><span id="FLIRC_Configuration_File">FLIRC Configuration File</span></h3>
 
-<p><s:a href="config/CommunitySqueeze_Flirc_Configuration.fcfg">
-Community Squeeze FLIRC configuration file</s:a> 
-to use with FLIRC and a Squeezebox IR remote control.</p>
+<p>Triode contributed Community Squeeze
+<s:a href="config/CommunitySqueeze_Flirc_Configuration.fcfg" target="blank_">
+FLIRC configuration file</s:a>
+to use with FLIRC and a Squeezebox IR remote control.
+</p>
+
+<p>Dsdreamer contributed
+<s:a href="config/dsdreamer_jivelite_flirc_map.fcfg" target="blank_">
+FLIRC configuration file</s:a>.</p>
+<p>&quot;I noticed that Triode's FLIRC file, though very useful, was missing some keys I like to use 
+(such as jump to 'now playing'). I also programmed the fast-forward and rewind keys to be track-seek 
+forward and track-seek backward since the FLIRC can't currently understand press-and-hold type operations 
+as distinct from short key presses. I'm putting it up here in case this would help someone else.&quot;
+</p>
 <hr />
 
-<h3>Plugging and Playing</h3>
+<h3><span id="Plugging_and_Playing">Plugging and Playing</span></h3>
 <p>Once you have connected a TV or monitor to the HDMI port, a USB
 keyed input device of some kind and an Ethernet connection you are
 nearly ready apply DC power to boot the device. First, make sure the
@@ -205,7 +236,7 @@ Play Favorite 0-9 0-9
 
 <hr />
 
-<h3>Pictures</h3>
+<h3><span id="Pictures">Pictures</span></h3>
 
 <img src="html/images/jivelite/squeezeplay0001_640x480.png" 
      alt="Jivelite: Choose Language (640x480)"
@@ -329,7 +360,7 @@ Contributed by JackOfAll.</p>
  
 <hr />
 
-<h3>Source Code</h3>
+<h3><span id="Source_Code">Source Code</span></h3>
 <p>Jivelite is maintained by Adrian Smith.</p>
 <p>Jivelite source code is hosted by Google Code. 
 <s:a href="http://code.google.com/p/jivelite/" target="blank_">
@@ -337,7 +368,7 @@ Jivelite Git Source Repository</s:a>.
 </p>
 <hr />
 
-<h3><s:text name="header.author" /></h3>
+<h3><span id="Author"><s:text name="header.author" /></span></h3>
 <p>This information on this page was authored by
 <s:a href="http://forums.slimdevices.com/member.php?12588-dsdreamer" 
      target="blank_">dsdreamer</s:a>, with screen shot contributions from  
