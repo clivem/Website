@@ -37,6 +37,7 @@
 	<li><s:a href="#lintweaker">Wandboard and DacMagic Plus</s:a> by lintweaker.</li>
 	<li><s:a href="#dsdreamer">Wandboard, REGA DAC and Musical Fidelity V-Link 192 DAC</s:a> by dsdreamer.</li>
 	<li><s:a href="#Pascal_Hibon">Wandboard, DIY COAX SPDIF Output and VU Meters</s:a> by Pascal Hibon.</li>
+	<li><s:a href="#Pascal_Hibon_Celing">Wandboard, Ceiling Install Project</s:a> by Pascal Hibon.</li>
 	<li><s:a href="#castalla">Cubieboard</s:a> by castalla.</li>
 	<li><s:a href="#albertone74">Wandboard Audio/Visual Setup</s:a> by albertone74.</li>
 	<li><s:a href="#michaelvv">Wandboard and Audio-GD DAC</s:a> by michaelvv.</li>
@@ -160,6 +161,83 @@ digital and analog outputs. A code change is required to correct this. (Above is
 the front panel of my prototype Community Squeeze Player.)&quot;
 </p>
 <hr />
+
+<!-- Pascal Project 2 -->
+<h5><span id="Pascal_Hibon_Celing">Wandboard, Ceiling Install Project <i>by Pascal Hibon</i></span></h5>
+<p>&quot;This is another update on my adventures with the Wandboard and the Community Squeeze.&quot;
+</p>
+<p>&quot;Due to the fact that the Community Squeeze is working great I got some ideas for two other projects 
+for this player in my house. Both of these projects require a Squeezebox that will be mounted behind the 
+ceiling driving in-ceiling speakers through an amplifier which also resides behind the ceiling. 
+The Community Squeezebox needs to switch the amplifier on and off based on the power state of the player. 
+So there was a need for a bit of additional electronics and a custom Lua script for Jivelite. The Lua script is 
+driving GPIO_19 on the Wandboard. GPIO_19 simply drives a SSR (Solid State Relay) which powers the amplifier on 
+and off.&quot;
+</p>
+<p>
+&quot;I use a 3.5mm stereo jack for the trigger output. The two resistors and the transistor are soldered around 
+the jack connector.&quot;<br />(Also shown, how it connects to the Wandboard.)</p>
+<table>
+<tr>
+<td>
+<img src="html/images/photos/pascal_triggeroutconn_480x640.jpg"
+     alt="Wandboard, Ceiling Install Project contributed by Pascal Hibon" width="480" height="640" />
+</td>
+<td>
+<img src="html/images/photos/pascal_triggeroutboard_479x640.jpg"
+     alt="Wandboard, Ceiling Install Project contributed by Pascal Hibon" width="479" height="640" />
+</td>
+</tr>
+<tr>
+<td>
+<p class="language">Contributed by
+<s:a href="http://forums.slimdevices.com/member.php?7969-Pascal-Hibon" 
+     target="blank_">Pascal Hibon</s:a>.
+</p>
+</td>
+<td>
+<p class="language">Contributed by
+<s:a href="http://forums.slimdevices.com/member.php?7969-Pascal-Hibon" 
+     target="blank_">Pascal Hibon</s:a>.
+</p>
+</td>
+</tr>
+</table>
+
+
+<p>&quot;And here it is all assembled.&quot;
+</p>
+<table>
+<tr>
+<td>
+<img src="html/images/photos/pascal_triggeroutwandboard_640x426.jpg"
+     alt="Wandboard, Ceiling Install Project contributed by Pascal Hibon" width="640" height="426" />
+</td>
+<td valign="bottom">
+<s:a href="html/images/photos/pascal_remote_switch.pdf" target="blank_">
+<img src="html/images/photos/pascal_remote_switch_400x360.jpg"
+     title="Click to download pdf circuit diagram" 
+     alt="Wandboard, Ceiling Install Project contributed by Pascal Hibon" width="400" height="360" />
+</s:a>
+</td>
+</tr>
+<tr>
+<td>
+<p class="language">Contributed by
+<s:a href="http://forums.slimdevices.com/member.php?7969-Pascal-Hibon" 
+     target="blank_">Pascal Hibon</s:a>.
+</p>
+</td>
+<td>
+<p class="language">Contributed by
+<s:a href="http://forums.slimdevices.com/member.php?7969-Pascal-Hibon" 
+     target="blank_">Pascal Hibon</s:a>.
+</p>
+</td>
+</tr>
+</table>
+<hr />
+<!-- Pascal Project 2 -->
 
 <h5><span id="castalla">Cubieboard <i>by castalla</i></span></h5>
 <p>&quot;Cubieboard Fedora 18 running LMS 7.8, Squeezelite 1.1 playing via  
