@@ -184,3 +184,7 @@ a img {
   font-size: smaller;
   font-weight: bold;
 }
+
+.bold {
+	font-weight: bold;
+}
