@@ -209,19 +209,38 @@ what they do.
 </p>
 
 <h3><span id="precision">&lt;precision&gt;</span></h3>
-<p>
+<p>The internal 'bit' precision used in the re-sample calculations. (ie. quality.)
+</p>
+
+<h5>Examples</h5>
+<p>&quot;-u :::28&quot;, specifies 28 bit precision.
 </p>
 
 <h3><span id="passband_end">&lt;passband_end&gt;</span></h3>
-<p>
+<p>A percentage value between 0 and 100, where 100 is the Nyquist frequency. (Default if not explicitly set, 91.3.)
+</p>
+
+<h5>Examples</h5>
+<p>&quot;-u ::::98&quot;, specifies passband ends at 98 percent of Nyquist.
 </p>
 
 <h3><span id="stopband_start">&lt;stopband_start&gt;</span></h3>
-<p>
+<p>A percentage value between 0 and 100, where 100 is the Nyquist frequency. (Default if not explicitly set, 100.)
+</p>
+
+<h5>Examples</h5>
+<p>&quot;-u :::::100&quot;, specifies stopband start at Nyquist.
 </p>
 
 <h3><span id="phase_response">&lt;phase_response&gt;</span></h3>
+<p>A value between 0-100, where &quot;0&quot; is equivalent to the recipe &quot;M&quot; flag for minimum phase, 
+&quot;25&quot; is equivalent to the recipe &quot;I&quot; flag for intermediate phase and &quot;50&quot; is equivalent 
+to the recipe &quot;L&quot; flag for linear phase.
+</p>
 
+<h5>Examples</h5>
+<p>&quot;-u ::::::50&quot;, specifies linear phase.
+</p>
 <hr />
 
 <h3><span id="Author"><s:text name="header.author" /></span></h3>
