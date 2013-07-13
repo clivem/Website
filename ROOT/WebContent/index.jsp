@@ -41,10 +41,18 @@
 18 Linux distribution, Community Squeeze Operating System (CSOS) is the
 default operating system for the Community Squeeze Player project.
 </p>
-<p>CSOS R3 (Release 3) image, 
-<s:a href="/images/wandboard/CSOS/CSOS-Wandboard-Dual-R3-20130412-1.img.7z"
-     target="blank_">CSOS-Wandboard-Dual-R3-20130412-1.img.7z</s:a>, for the 
+
+<p>Download the correct image for your Wandboard, either Dual or Quad.</p>
+
+<p>CSOS R6 (Release 6) image, 
+<s:a href="/images/wandboard/CSOS/CSOS-Wandboard-Dual-R6-20130712-1.img.7z"
+     target="blank_">CSOS-Wandboard-Dual-R6-20130712-1.img.7z</s:a>, for the 
 Wandboard Dual.
+</p>
+<p>CSOS R6 (Release 6) image, 
+<s:a href="/images/wandboard/CSOS/CSOS-Wandboard-Quad-R6-20130712-1.img.7z"
+     target="blank_">CSOS-Wandboard-Quad-R6-20130712-1.img.7z</s:a>, for the 
+Wandboard Quad.
 </p>
 <hr />
 
