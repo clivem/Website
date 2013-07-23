@@ -43,7 +43,7 @@ default operating system for the Community Squeeze Player project.
 </p>
 
 <p>Download the correct image for your Wandboard, either Dual or Quad.</p>
-
+<!--
 <p>CSOS R6 (Release 6) image, 
 <s:a href="/images/wandboard/CSOS/CSOS-Wandboard-Dual-R6-20130712-1.img.7z"
      target="blank_">CSOS-Wandboard-Dual-R6-20130712-1.img.7z</s:a>, for the 
@@ -52,6 +52,17 @@ Wandboard Dual.
 <p>CSOS R6 (Release 6) image, 
 <s:a href="/images/wandboard/CSOS/CSOS-Wandboard-Quad-R6-20130712-1.img.7z"
      target="blank_">CSOS-Wandboard-Quad-R6-20130712-1.img.7z</s:a>, for the 
+Wandboard Quad.
+</p>
+-->
+<p>CSOS R7 (Release 7) image, 
+<s:a href="/images/wandboard/CSOS/CSOS-Wandboard-Dual-R7-20130722-1.img.7z"
+     target="blank_">CSOS-Wandboard-Dual-R7-20130722-1.img.7z</s:a>, for the 
+Wandboard Dual.
+</p>
+<p>CSOS R7 (Release 7) image, 
+<s:a href="/images/wandboard/CSOS/CSOS-Wandboard-Quad-R7-20130722-1.img.7z"
+     target="blank_">CSOS-Wandboard-Quad-R7-20130722-1.img.7z</s:a>, for the 
 Wandboard Quad.
 </p>
 <hr />
