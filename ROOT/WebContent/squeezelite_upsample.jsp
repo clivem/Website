@@ -70,7 +70,7 @@ This page will attempt to document the available settings and provide examples.
 <h3><span id="Implementation"><s:text name="header.implementation" /></span></h3>
 
 <p>In a nutshell, Squeezelite either receives raw PCM data from LMS or data in a format which it can decode. eg. flac. 
-If the data needs to be decoded to PCM, it is, before being transferred to the output buffer, which supplies data 
+If the data needs to be decoded to &quot;raw&quot; PCM, it is, before being transferred to the output buffer, which supplies data 
 to either Alsa or Portaudio, which communicates with the audio hardware device via the OS.
 </p>
 
@@ -98,6 +98,13 @@ If the maximum sample rate that the output device is capable of is 384kHz, multi
 (ie. 48kHz, 96kHz, 192kHz), will be upsampled to 384kHz, the highest integer multiple of 48kHz, less than or 
 equal to 384kHz, the maximum sample rate.
 </p>
+
+<h5>Asynchronous</h5>
+<p>
+(20130809) Adrian has added asynchronous upsampling capability to squeezelite. (Input will be upsampled to the 
+max sample rate of the device, regardless of original sample rate.) Enable using the &quot;X&quot; flag via 
+<s:a href="#Options"><s:text name="header.options" /></s:a>.
+</p>
 <hr />
 
 <h3><span id="FAQ"><s:text name="header.faq" /></span></h3>
@@ -123,10 +130,10 @@ all resampling implementations are created equal. SoX is one of the best.
 <h3><span id="Options"><s:text name="header.options" /></span></h3>
 <p>The Squeezelite &quot;-h&quot; option will display the following help information for the &quot;-u&quot; upsample option.
 </p>
-<pre>Squeezelite v1.1, Copyright 2012, 2013 Adrian Smith. See -t for license terms
+<pre>Squeezelite v1.3-dev, Copyright 2012, 2013 Adrian Smith. See -t for license terms
 Usage: squeezelite [options] [&lt;server&gt;]
   -u [&lt;quality&gt;:&lt;flags&gt;:&lt;attenuation&gt;:&lt;precision&gt;:&lt;passband_end&gt;:&lt;stopband_start&gt;:&lt;phase_response&gt;] Upsample to max rate for device,
-  			quality = (v|h|m|l|q)(|L|I|M)(|s),
+  			quality = (v|h|m|l|q)(|L|I|M)(|s), (|X) = async - resample to max rate for device, otherwise resample to max sync rate
   			flags = num in hex,
   			attenuation = attenuation in dB to apply (default is -1db if not explicitly set),
   			precision = number of bits precision (NB. HQ = 20. VHQ = 28),
@@ -166,6 +173,9 @@ the SoX rate effect. ie. it preserves 99% bandwidth with a steep cut-off.
 </p>
 <p>
 &quot;-u hM&quot;, would specify high quality, with the minimum phase filter.
+</p>
+<p>
+&quot;-u hMX&quot;, would specify high quality, with the minimum phase filter, async upsampling to max device rate.
 </p>
 
 <h3><span id="flags">&lt;flags&gt;</span></h3>
