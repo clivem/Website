@@ -57,17 +57,15 @@ Wandboard Quad.
 -->
 <p>CSOS F19 (RELEASE 1) image, 
 <s:a href="/images/wandboard/CSOS/F19-R1/CSOS-Wandboard-Quad-F19-R1-20130811-1.img.7z"
-     target="blank_">CSOS-Wandboard-Quad-F19-R1-20130811-1.img.7z</s:a>, (
-<s:a href="/images/wandboard/CSOS/F19-R1/CSOS-Wandboard-Quad-F19-R1-20130811-1.img.7z-CHECKSUM" 
-     target="blank_">MD5 CHECKSUM</s:a>), 
-for the Wandboard Quad.
+     target="blank_">CSOS-Wandboard-Quad-F19-R1-20130811-1.img.7z</s:a>, 
+(<s:a href="/images/wandboard/CSOS/F19-R1/CSOS-Wandboard-Quad-F19-R1-20130811-1.img.7z-CHECKSUM" 
+      target="blank_">MD5 CHECKSUM</s:a>), for the Wandboard Quad.
 </p>
 <p>CSOS F19 (RELEASE 1) image, 
 <s:a href="/images/wandboard/CSOS/F19-R1/CSOS-Wandboard-Dual-F19-R1-20130811-1.img.7z"
-     target="blank_">CSOS-Wandboard-Dual-R7-20130722-1.img.7z</s:a>, (
-<s:a href="/images/wandboard/CSOS/F19-R1/CSOS-Wandboard-Dual-F19-R1-20130811-1.img.7z-CHECKSUM" 
-     target="blank_">MD5 CHECKSUM</s:a>), 
-for the Wandboard Dual.
+     target="blank_">CSOS-Wandboard-Dual-F19-R1-20130811-1.img.7z</s:a>, 
+(<s:a href="/images/wandboard/CSOS/F19-R1/CSOS-Wandboard-Dual-F19-R1-20130811-1.img.7z-CHECKSUM" 
+      target="blank_">MD5 CHECKSUM</s:a>), for the Wandboard Dual.
 </p>
 
 <hr />
