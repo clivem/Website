@@ -45,7 +45,8 @@ default operating system for the Community Squeeze Player project.
 NB. The current images are based on the Fedora 19 ARM image, with a 
 Wandboard specific (3.0.35) kernel and uboot, and the CSOS software packages, 
 (ie. the jivelite controller, squeezelite player, community-squeeze-web 
-configuration interface and their dependencies), pre-installed.
+configuration interface and their dependencies), pre-installed. 
+Once extracted, the image should be written to a MicroSD card of 8GB (or greater) capacity. 
 </p>
 <p>Download the corresponding image for your Wandboard, either Dual or Quad.</p>
 <p>CSOS F19 (RELEASE 1) Quad CPU image, 
