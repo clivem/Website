@@ -80,9 +80,8 @@ software mentioned and screen shots are from a Windows XP machine.</p>
 
 <h3><span id="Downloading_the_CSOS_image_file">Downloading the CSOS image file</span></h3>
 
-<p>Download the image using the link, 
-<s:a href="http://www.communitysqueeze.org/images/wandboard/CSOS/CSOS-Wandboard-Dual-R3-20130412-1.img.7z">
-CSOS-Wandboard-Dual-R3-20130412-1.img.7z</s:a>, and save the file somewhere 
+<p>Download the current image for your Wandboard, (either Dual or Quad image to match your hardware), 
+using the link on the <s:a href="index.jsp">front page</s:a>, and save the file somewhere 
 convenient on your hard drive.</p>
 <hr />
 
@@ -110,7 +109,7 @@ downloaded file.</p>
 <h3><span id="Writing_the_CSOS_image_file_to_a_MicroSD_card">Writing the CSOS image file to a 
 MicroSD card</span></h3>
 
-<p>The Wandboard takes a MicroSD card, you'll need one of at least 4GB. 
+<p>The Wandboard takes a MicroSD card, you'll need one of at least 8GB. 
 </p>
 
 <p>You will also need some method of connecting the
