@@ -204,6 +204,11 @@ one server machine.</li>
 <p>Other settings enable tuning of the Squeezelite playback application, but are only normally 
 required by experience users who wish to tweak their configuration. Please don't adjust unless 
 you know what these do.</p>
+
+<h5><span id="Upsampling">Upsampling</span></h5>
+<p>Sqeezelite is capable of upsampling. (Version &gt;= 1.2.)
+<s:a href="squeezelite_upsample.jsp"><s:text name="squeezelite.upsample.header" /></s:a> 
+</p>
 <hr />
 
 <h3><span id="Command_Line_Options">Command Line Options</span></h3>
