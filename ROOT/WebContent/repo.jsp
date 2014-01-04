@@ -45,19 +45,17 @@
 
 <h3><span id="Introduction"><s:text name="header.introduction" /></span></h3>
 
-<p>The Community Squeeze Software Repository (repo) provides packages for Fedora 19 i686 and x86_64, 
-Vortexbox 2.2 (Fedora 16), and the Fedora 19 ARM CSOS for Wandboard release.</p>
+<p>The Community Squeeze Software Repository (repo) provides packages for Fedora 19/20 i686/x86_64, and F19/20 armv7hnl, 
+the Fedora 19/20 ARM CSOS for Wandboard release.</p>
 
-<p>It is not a stand-alone repository. The Fedora 19 packages for all platforms depend on the RPMFusion repository and 
-in the case of the Fedora 16 packages for Vortexbox 2.2, they depend on the VortexBox repository, which in turn depends on 
-the ATRpms repository.</p>
+<p>It is not a stand-alone repository. The packages, (for all platforms), depend on the RPMFusion repository.</p>
 
 <p>When running any of the commands below, you should do so as root or using sudo.
 </p>
 
-<h5>Fedora 19 Firewall Daemon</h5>
+<h5>Fedora Firewall Daemon</h5>
 
-<p>Fedora 19 installs firewalld, (a firewall daemon), and the default zone is set to &quot;public&quot; which is quite 
+<p>Fedora &gt;&#61;19 installs firewalld, (a firewall daemon), and the default zone is set to &quot;public&quot; which is quite 
 restrictive. It will block your squeezebox client(s) from connecting to the server. You don't need to disable firewalld, 
 just set the zone for your local (internal) network interface to be &quot;trusted&quot;. Click on the desktop tray network 
 icon. Then select your LAN network interface and click the options button. On the first tab of the configuration dialog, 
@@ -83,31 +81,32 @@ sudo systemctl disable firewalld.service
 
 <h5><span id="Fedora_19_Wandboard">Fedora 19 CSOS for Wandboard</span></h5>
 
-<p>If you are using the Fedora 19 CSOS for Wandboard software image there is no need to install any of the repo packages. 
-They are pre-installed. The LMS packages are also pre-installed. 
-LMS needs to be enabled and started, either via the CSOS Web Configuration Interface or from the command line.
+<p>If you are using the Fedora 19 CSOS for Wandboard software image there is no need to install any of the 
+repo packages. They are pre-installed, the CSOS repo package and RPMFusuion repo packages. 
+The LMS packages are also pre-installed. LMS needs to be enabled and started, either via the 
+CSOS Web Configuration Interface or from the command line.
 </p>
 <pre class="terminal">sudo systemctl enable squeezeboxserver.service
 sudo systemctl start squeezeboxserver.service
 </pre>
 
-<h5><span id="Fedora_19_i686_and_x86_64">Fedora 19 i686 and x86_64</span></h5>
+<h5><span id="Fedora_19_i686_and_x86_64">Fedora &gt;&#61;19 i686 and x86_64</span></h5>
 
 <p>If you have previously installed a Logitech provided LMS (logitechmediaserver) rpm package, remove it! 
 (The support issues so far have been due to people doing all sorts of wierd and wonderful things to try and get the 
-Logitech package working with perl 5.16.2.)</p>
+Logitech package working with perl &gt; 5.14.)</p>
 
 <pre class="terminal">sudo yum remove logitechmediaserver
 </pre>
 
-<p>The Community Squeeze Fedora 19 repo depends on RPMFusion for the codec dependencies. 
+<p>The Community Squeeze repo depends on RPMFusion for the codec dependencies. 
 Install the RPMFusion repo packages.
 </p>
 <pre class="terminal">sudo yum -y install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-19.noarch.rpm
 sudo yum -y install http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-19.noarch.rpm
 </pre>
 
-<p>Then install the Community Squeeze Fedora 19 repo package, followed by the LMS package. 
+<p>Then install the Community Squeeze repo package, followed by the LMS package. 
 (Don't be concerned that multiple packages are being installed, rather than a single logitechmediaserver package. 
 The LMS server is actually comprised of 3 packages: base (noarch), vendor (arch specific) and CPAN (arch specific). 
 Several perl packages are dependencies. Plus codec packages for transcoding.)
@@ -115,10 +114,6 @@ Several perl packages are dependencies. Plus codec packages for transcoding.)
 <pre class="terminal">sudo yum -y install http://www.communitysqueeze.org/repo/community-squeeze-repo.noarch.rpm
 sudo yum -y install logitechmediaserver
 </pre>
-
-<h5>VortexBox 2.2 (Fedora 16)</h5>
-
-<p>Coming Soon...</p>
 
 <hr />
 

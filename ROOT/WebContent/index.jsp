@@ -68,13 +68,10 @@ Once extracted, the image should be written to a MicroSD card of 8GB (or greater
 repository</s:a> contains the software we have packaged 
 for the CSOS Wandboard <s:a href="/repo/19/armhfp" target="blank_">ARM</s:a> 
 image, as well as software pre-packaged for Fedora, 
-<s:a href="/repo/19/x86_64" target="blank_">x86_64</s:a> and 
-<s:a href="/repo/19/i386" target="blank_">i686</s:a> architectures. 
-</p>
-<p>The <s:a href="http://vortexbox.org" target="blank_">Vortexbox</s:a> 
-distribution, (version 2.2, which is currently based on Fedora 16 
-<s:a href="/repo/16/i386" target="blank_">i386</s:a>), is also 
-supported by the repository.
+<s:a href="/repo/19/x86_64" target="blank_">F19 x86_64</s:a>, 
+<s:a href="/repo/19/i386" target="blank_">F19 i686</s:a>, 
+<s:a href="/repo/20/x86_64" target="blank_">F20 x86_64</s:a> and 
+<s:a href="/repo/20/i386" target="blank_">F20 i686</s:a> architectures. 
 </p>
 <p>NB. The ARM packages (armv7hnl) are optimised for ARM7 hard-float with 
 <s:a href="http://www.arm.com/products/processors/technologies/neon.php"
