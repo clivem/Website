@@ -41,6 +41,7 @@
 	<li><s:a href="#castalla">Cubieboard</s:a> by castalla.</li>
 	<li><s:a href="#albertone74">Wandboard Audio/Visual Setup</s:a> by albertone74.</li>
 	<li><s:a href="#michaelvv">Wandboard and Audio-GD DAC</s:a> by michaelvv.</li>
+	<li><s:a href="#gib8">Music Server</s:a> by gib8.</li>
 </ol>
 <hr />
 
@@ -307,6 +308,30 @@ is part of the fun. Ain't that good news!&quot;
 <p class="language">Contributed by
 <s:a href="http://forums.slimdevices.com/member.php?59321-michaelvv" 
      target="blank_">michaelvv</s:a>.
+</p>
+<hr />
+
+<h5><span id="gib8">Music Server <i>by gib8 (Bruno from Austria)</i></span></h5>
+
+<img src="html/images/photos/bruno_musicserver2__640_273.jpg" 
+     alt="Music Server (front panel) contributed by gib8" width="640" height="273" />
+<p>
+&quot;Wandboard Quad (powered by CSOS F19), 
+2.5" Toshiba hard disk (2TB), 
+<s:a href="http://hifiduino.wordpress.com/2013/08/11/the-hifidiy-es9018-dac/" target="blank_">HifiDIY ES9018 DAC</s:a>, 
+(connected to Wandboard SPDIF via cable to the onboard transformer of the dac), 
+<s:a href="http://hifiduino.wordpress.com/2013/10/30/arduino-compatible/" target="blank_">Arduino</s:a> 
+for the DAC, 
+<s:a href="http://hifiduino.wordpress.com/code/" target="blank_">Software for Arduino</s:a>, 
+<s:a href="http://www.diyaudio.com/forums/headphone-systems/179298-wire-ultra-high-performance-headphone-amplifier-pcbs.html" target="blank_">The Wire Headphone amps</s:a>, 
+(single ended + balanced).&quot;
+</p>
+<img src="html/images/photos/bruno_musicserver1__640_426.jpg" 
+     alt="Music Server (inside case) contributed by gib8" width="640" height="426" />
+<br class="separator" />
+<p class="language">Contributed by
+<s:a href="http://forums.slimdevices.com/member.php?62366-gib8" 
+     target="blank_">gib8</s:a>.
 </p>
 <hr />
 
