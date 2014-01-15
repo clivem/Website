@@ -317,7 +317,7 @@ is part of the fun. Ain't that good news!&quot;
      alt="Music Server (front panel) contributed by gib8" width="640" height="273" />
 <p>
 &quot;Wandboard Quad (powered by CSOS F19), 
-2.5" Toshiba hard disk (2TB), 
+2.5&quot; Toshiba hard disk (2TB), 
 <s:a href="http://hifiduino.wordpress.com/2013/08/11/the-hifidiy-es9018-dac/" target="blank_">HifiDIY ES9018 DAC</s:a>, 
 (connected to Wandboard SPDIF via cable to the onboard transformer of the dac), 
 <s:a href="http://hifiduino.wordpress.com/2013/10/30/arduino-compatible/" target="blank_">Arduino</s:a> 
