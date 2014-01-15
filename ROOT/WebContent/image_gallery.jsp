@@ -315,6 +315,12 @@ is part of the fun. Ain't that good news!&quot;
 
 <img src="html/images/photos/bruno_musicserver2__640_273.jpg" 
      alt="Music Server (front panel) contributed by gib8" width="640" height="273" />
+<br class="separator" />
+<p class="language">Contributed by
+<s:a href="http://forums.slimdevices.com/member.php?62366-gib8" 
+     target="blank_">gib8</s:a>.
+</p>
+
 <p>
 &quot;Wandboard Quad (powered by CSOS F19), 
 2.5&quot; Toshiba hard disk (2TB), 
@@ -326,6 +332,7 @@ for the DAC,
 <s:a href="http://www.diyaudio.com/forums/headphone-systems/179298-wire-ultra-high-performance-headphone-amplifier-pcbs.html" target="blank_">The Wire Headphone amps</s:a>, 
 (single ended + balanced).&quot;
 </p>
+
 <img src="html/images/photos/bruno_musicserver1__640_426.jpg" 
      alt="Music Server (inside case) contributed by gib8" width="640" height="426" />
 <br class="separator" />
