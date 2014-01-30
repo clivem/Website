@@ -73,13 +73,20 @@
 			<s:text name="nav.wandboard" />
 		</s:a>
 	</span> 
-<!-- 
+	
+	<span id="nav-java">
+		<s:a href="java.jsp">
+			<s:text name="nav.java" />
+		</s:a>
+	</span> 
+	
+	<!-- 
 	<span id="nav-help">
 		<s:a href="help.jsp">
 			<s:text name="nav.help" />
 		</s:a>
 	</span> 
- -->
+	-->
 	<br class="separator" />
  
 </div>

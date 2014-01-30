@@ -89,4 +89,11 @@
   <priority>0.80</priority>
 </url>
 
+<url>
+  <loc>http://www.communitysqueeze.org/java.jsp</loc>
+  <lastmod>2014-01-30T19:30:00Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+
 </urlset>
