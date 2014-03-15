@@ -47,8 +47,8 @@
 is that I can't, not that I don't know better. 
 That I personally as an individual, accept the Oracle Binary Code License and 
 don't use the default OpenJDK Zoom JVM, yes, might seem a little two-faced, do 
-as I say, rather than do as I do, but anyone can download and use it, by 
-creating an Oracle account and accepting the BCL agreement.</p>
+as I say, rather than do as I do, but anyone can download and use the Oracle JVM, by 
+creating an Oracle (OTN) account and accepting their (BCL) Binary Code License agreement.</p>
 
 <p>Java is interpreted. Yes, it is all about the JIT. Java isn't alone there. 
 (Triode, not directed at you, but it's relevant.) Jivelite runs acceptably 
@@ -58,7 +58,7 @@ not providing the best out-of-the-box experience, is that LuaJIT is open
 source, the Oracle JIT is <i>free</i>, as in free to use if you accept the binary 
 license, but it is not open source, or freely re-distributable. If anyone wants 
 to suggest I am guilty of anything, it's not that I want to hold back, that there 
-is some dastardly plan to provide a pay-ware version of CSOS at some point in the 
+is some under-hand plan to provide a pay-ware version of CSOS at some point in the 
 future, and have reasons to differentiate that from a "free" version.</p>
 
 <ol>
@@ -100,12 +100,20 @@ how to install it and make it the default JVM for tomcat.</p>
 
 <h5>Download the Oracle Embedded JRE</h5>
 
-<p>Download ejre-7u45-fcs-b15-linux-arm-vfp-hflt-server_headless-26_sep_2013.tar.gz 
-(32.2MB). You can't &quot;wget&quot; this file from the Wandboard. 
+<p>Download the latest embedded Oracle embedded JRE, 
+&quot;ARMv7 Linux - Headless - Server Compiler EABI, VFP, HardFP ABI&quot;, 
+currently ejre-7u51-fcs-b13-linux-arm-vfp-hflt-server_headless-18_dec_2013.tar.gz 
+(32.2MB), via this link,
+<s:a href="http://www.oracle.com/technetwork/java/embedded/downloads/javase/index.html" 
+		target="_blank">Java SE Embedded - Downloads</s:a>.
+</p>
+<p>NB. You can't &quot;wget&quot; this file from the Wandboard. 
 Do this from a browser on your desktop machine as you'll need to accept the 
 license agreement and create a OTN account if you don't already have one. 
-(Unlikely, unless you are a Java developer.) Once you have downloaded the file, 
-you need to get it onto the Wandboard. copy it, (scp), to the fedora user home 
+(Which is unlikely, unless you are a Java developer.) 
+</p>
+<p>Once you have downloaded the file, 
+you need to get it onto the Wandboard. Copy it, (scp), to the fedora user home 
 directory on the Wandboard.</p>
 
 <h5>Install the Oracle JVM</h5>
@@ -113,7 +121,7 @@ directory on the Wandboard.</p>
 <p>Log into the Wandboard as the "fedora" user....</p>
 
 <pre>sudo mkdir -p /usr/local/share/java
-sudo tar zxvf ejre-7u45-fcs-b15-linux-arm-vfp-hflt-server_headless-26_sep_2013.tar.gz -C /usr/local/share/java
+sudo tar zxvf ejre-7u51-fcs-b13-linux-arm-vfp-hflt-server_headless-18_dec_2013.tar.gz -C /usr/local/share/java
 sudo chown root.root -R /usr/local/share/java</pre>
 
 <h5>Configure tomcat to use the Oracle JVM</h5>
@@ -121,7 +129,7 @@ sudo chown root.root -R /usr/local/share/java</pre>
 <p>Now you'll need to edit, &quot;/etc/sysconfig/tomcat&quot;. At the end of the 
 file, on a new line, add....</p>
 
-<pre>JAVA_HOME=&quot;/usr/local/share/java/ejre1.7.0_45&quot;</pre>
+<pre>JAVA_HOME=&quot;/usr/local/share/java/ejre1.7.0_51&quot;</pre>
 
 <h5>Restart tomcat</h5>
 
@@ -166,8 +174,11 @@ changes....</p>
 
 <p><i>Question</i>: If the Oracle JVM is faster, how much faster?<br />
 <i>Answer</i>: I can't give you a definitive answer. The only faster I'd be 
-really interested in, is how much faster is it when running the web-app. 
-I haven't benchmarked that. I'm not interested in benchmarking that.</p>
+really interested in, is how much faster is it when running the web-app using tomcat. 
+I haven't actually benchmarked that. (Some &quot;well known&quot; Java benchmarks, 
+suggest anything from a 2x to a 10x performance boost, compared to the default, 
+OpenJDK Zoom JVM.)
+</p>
 
 <hr />
 
