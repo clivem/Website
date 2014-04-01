@@ -312,7 +312,7 @@ web site.
 <ul>
 <li><s:a href="http://www.wandboard.org" target="blank_">Wandboard</s:a> Dual</li> 
 <li>5V (&gt;= 2A) Power Supply</li> 
-<li>MicroSD card (&gt;= 4GB capacity)</li>
+<li>MicroSD card (&gt;= 8GB capacity)</li>
 </ul>
 <p />
 <p>Optional:</p>
